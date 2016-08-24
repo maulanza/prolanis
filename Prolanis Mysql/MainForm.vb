@@ -4,6 +4,7 @@ Public Class MainForm
 
     Public connectionString As String
     Public connection As MySqlConnection
+    Private errorProvider As ErrorProvider
 
     'SQL Pasien'
     Public SQLInsert As String = "INSERT INTO tb_pasien(fnama,lnama,jns_kelamin,kategori,no_bpjs,ttl,alamat,no_tlp1,no_tlp2) VALUES(?,?,?,?,?,?,?,?,?)"
@@ -14,12 +15,8 @@ Public Class MainForm
     Public SQLSelectNoTlp1 As String = "SELECT no_tlp1 FROM tb_pasien WHERE id_pasien = ?"
 
     'SQl Jadwal'
-    Public SQLSelectJadwal As String = "SELECT tb_jadwal.id_jadwal,tb_pasien.id_pasien,tb_pasien.fnama,tb_pasien.lnama,tb_jadwal.jadwal FROM tb_jadwal INNER JOIN tb_pasien ON tb_jadwal.idpasien = tb_pasien.id_pasien"
-    Public SQLSelectNamaPasien As String = "SELECT id_pasien,fnama,lnama FROM tb_pasien"
-    Public SQLInsertJadwal As String = "INSERT INTO tb_jadwal(jadwal,idpasien) VALUES(?,?)"
-    Public SQLSelectToTextBoxJadwal As String = "SELECT tb_jadwal.id_jadwal,tb_pasien.id_pasien,tb_pasien.fnama,tb_jadwal.jadwal FROM tb_jadwal INNER JOIN tb_pasien ON tb_jadwal.idpasien = tb_pasien.id_pasien WHERE id_jadwal = ?"
-    Public SQLDeleteJadwal As String = "DELETE FROM tb_jadwal WHERE id_jadwal = ?"
-    Public SQLUpdateJadwal As String = "UPDATE tb_jadwal SET jadwal = ? WHERE id_jadwal = ?"
+    Public SQLSelectJadwal As String = "SELECT id_jadwal,tanggal,tahun from tb_jadwal"
+    Public SQLUpdateJadwal As String = "UPDATE tb_jadwal SET tanggal = ?, tahun = ? WHERE id_jadwal = ?"
 
     'SQL Kotak Masuk'
     Public SQLSendMessage As String = "INSERT INTO outbox (DestinationNumber, TextDecoded, CreatorID) VALUES(?,?,?)"
@@ -32,6 +29,7 @@ Public Class MainForm
         connectionString = "server=localhost;Port=3306;user id=root;database=gammu;"
         connection = New MySqlConnection(connectionString)
         DataSources.gammuDataSet = Me.GammuDataSet
+        Me.errorProvider = New ErrorProvider()
     End Sub
 
 
@@ -95,7 +93,7 @@ Public Class MainForm
 
         'Menu Jadwal'
         LoadJadwal()
-        SettingGridJadwal()
+        DisableTextBox()
 
         'Menu Kotak Masuk'
         LoadKotakMasuk()
@@ -242,64 +240,255 @@ Public Class MainForm
 
         Dim command As MySqlCommand = connection.CreateCommand()
         command.CommandText = SQLSelectJadwal
+        reader = command.ExecuteReader(CommandBehavior.Default)
 
-        Dim dt As DataTable = New DataTable()
-        Dim da As MySqlDataAdapter = New MySqlDataAdapter(command)
-        da.Fill(dt)
+        If reader.HasRows Then
+            While reader.Read()
+                Dim i As Integer = reader("id_jadwal").ToString()
 
-        MetroGrid3.DataSource = dt
+                If (i = 1) Then
+                    Me.MetroTextBox1.Text = reader("tanggal").ToString()
+                ElseIf (i = 2) Then
+                    Me.MetroTextBox2.Text = reader("tanggal").ToString()
+                ElseIf (i = 3) Then
+                    Me.MetroTextBox3.Text = reader("tanggal").ToString()
+                ElseIf (i = 4) Then
+                    Me.MetroTextBox4.Text = reader("tanggal").ToString()
+                ElseIf (i = 5) Then
+                    Me.MetroTextBox5.Text = reader("tanggal").ToString()
+                ElseIf (i = 6) Then
+                    Me.MetroTextBox6.Text = reader("tanggal").ToString()
+                ElseIf (i = 7) Then
+                    Me.MetroTextBox7.Text = reader("tanggal").ToString()
+                ElseIf (i = 8) Then
+                    Me.MetroTextBox8.Text = reader("tanggal").ToString()
+                ElseIf (i = 9) Then
+                    Me.MetroTextBox9.Text = reader("tanggal").ToString()
+                ElseIf (i = 10) Then
+                    Me.MetroTextBox10.Text = reader("tanggal").ToString()
+                ElseIf (i = 11) Then
+                    Me.MetroTextBox11.Text = reader("tanggal").ToString()
+                ElseIf (i = 12) Then
+                    Me.MetroTextBox12.Text = reader("tanggal").ToString()
+                End If
+
+                MetroComboBoxTahun.Text = reader("tahun").ToString()
+            End While
+        End If
+
         connection.Close()
     End Sub
 
-    Private Sub SettingGridJadwal()
-        MetroGrid3.Columns(0).HeaderText = "ID Jadwal"
-        MetroGrid3.Columns(1).HeaderText = "ID Pasien"
-        MetroGrid3.Columns(2).HeaderText = "Nama Depan"
-        MetroGrid3.Columns(3).HeaderText = "Nama Belakang"
-        MetroGrid3.Columns(4).HeaderText = "Jadwal"
+    Private Sub DisableTextBox()
+        MetroTextBox1.Enabled = False
+        MetroTextBox2.Enabled = False
+        MetroTextBox3.Enabled = False
+        MetroTextBox4.Enabled = False
+        MetroTextBox5.Enabled = False
+        MetroTextBox6.Enabled = False
+        MetroTextBox7.Enabled = False
+        MetroTextBox8.Enabled = False
+        MetroTextBox9.Enabled = False
+        MetroTextBox10.Enabled = False
+        MetroTextBox11.Enabled = False
+        MetroTextBox12.Enabled = False
+        MetroComboBoxTahun.Enabled = False
     End Sub
 
-    Private Sub MetroTileTambahJadwal_Click(sender As Object, e As EventArgs) Handles MetroTileTambahJadwal.Click
-        Dim tambahJadwalForm As TambahJadwalForm = New TambahJadwalForm()
-        tambahJadwalForm.ShowDialog(Me)
-    End Sub
+    Private Function TigaSatuValidation(ByVal tanggal As Integer) As Boolean
+        If (tanggal >= 1 And tanggal <= 31) Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
 
-    Private Sub MetroGrid3_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles MetroGrid3.CellContentClick
-        Dim id As Integer
-        id = MetroGrid3.Rows(e.RowIndex).Cells(0).Value
-        idJadwal = id
-    End Sub
+    Private Function TigaPuluhValidation(ByVal tanggal As Integer) As Boolean
+        If (tanggal >= 1 And tanggal <= 30) Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
 
-    Private Sub MetroTileEditJadwal_Click(sender As Object, e As EventArgs) Handles MetroTileEditJadwal.Click
-        Dim editJadwalForm As EditJadwalForm = New EditJadwalForm()
-        editJadwalForm.ShowDialog(Me)
-    End Sub
+    Private Function DuaSembilanValidation(ByVal tanggal As Integer) As Boolean
+        If (tanggal >= 1 And tanggal <= 29) Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
 
-    Private Sub MetroTileHapusJadwal_Click(sender As Object, e As EventArgs) Handles MetroTileHapusJadwal.Click
+    Private Function AreRequiredFieldsValid() As Boolean
+        If String.IsNullOrEmpty(Me.MetroTextBox1.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox1, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox2.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox2, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox3.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox3, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox4.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox4, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox5.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox5, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox6.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox6, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox7.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox7, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox8.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox8, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox9.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox9, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox10.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox10, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox11.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox11, "tanggal harus diisi.")
+            Return False
+        End If
+        If String.IsNullOrEmpty(Me.MetroTextBox12.Text) Then
+            Me.errorProvider.SetError(Me.MetroTextBox12, "tanggal harus diisi.")
+            Return False
+        End If
+        Return True
+    End Function
+
+    Private Sub MetroTileSimpanJadwal_Click(sender As Object, e As EventArgs) Handles MetroTileSimpanJadwal.Click
+        If (Not Me.AreRequiredFieldsValid()) Then
+            Return
+        End If
+
         Try
             If (connection.State <> ConnectionState.Open) Then
                 connection.Open()
             End If
 
-            Dim message As String
-            message = MsgBox("Are you sure want to delete this data?  ", vbExclamation + vbYesNo, "Warning")
-            If message = vbNo Then Exit Sub
-
             Dim command As MySqlCommand = connection.CreateCommand()
-            command.CommandText = SQLDeleteJadwal
+            command.CommandText = SQLUpdateJadwal
 
-            command.Parameters.AddWithValue("id_jadwal", id_jadwal)
+            Dim tanggal As String = ""
+            For i As Integer = 1 To 12
+                command.Parameters.Clear()
+                If (i = 1) Then
+                    tanggal = MetroTextBox1.Text
+                    If (Not (TigaSatuValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 2) Then
+                    tanggal = MetroTextBox2.Text
+                    If (Not (DuaSembilanValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 3) Then
+                    tanggal = MetroTextBox3.Text
+                    If (Not (TigaSatuValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 4) Then
+                    tanggal = MetroTextBox4.Text
+                    If (Not (TigaPuluhValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 5) Then
+                    tanggal = MetroTextBox5.Text
+                    If (Not (TigaSatuValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 6) Then
+                    tanggal = MetroTextBox6.Text
+                    If (Not (TigaPuluhValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 7) Then
+                    tanggal = MetroTextBox7.Text
+                    If (Not (TigaSatuValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 8) Then
+                    tanggal = MetroTextBox8.Text
+                    If (Not (TigaSatuValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 9) Then
+                    tanggal = MetroTextBox9.Text
+                    If (Not (TigaPuluhValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 10) Then
+                    tanggal = MetroTextBox10.Text
+                    If (Not (TigaSatuValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 11) Then
+                    tanggal = MetroTextBox11.Text
+                    If (Not (TigaPuluhValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                ElseIf (i = 12) Then
+                    tanggal = MetroTextBox12.Text
+                    If (Not (TigaSatuValidation(tanggal))) Then
+                        Exit Try
+                        MessageBox.Show("Masukan tanggal salah")
+                    End If
+                End If
+                command.Parameters.AddWithValue("tanggal", tanggal)
+                command.Parameters.AddWithValue("tahun", MetroComboBoxTahun.Text)
+                command.Parameters.AddWithValue("id_jadwal", i)
+                command.ExecuteNonQuery()
+            Next
 
-            command.ExecuteNonQuery()
+            MessageBox.Show("Data berhasil disimpan!")
+            DisableTextBox()
             connection.Close()
-
-            MessageBox.Show("Data berhasil dihapus!")
-            LoadJadwal()
-            MetroGrid3.Update()
-            MetroGrid3.Refresh()
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
+
+    End Sub
+
+    Private Sub MetroTileEditJadwal_Click(sender As Object, e As EventArgs) Handles MetroTileEditJadwal.Click
+        MetroTextBox1.Enabled = True
+        MetroTextBox2.Enabled = True
+        MetroTextBox3.Enabled = True
+        MetroTextBox4.Enabled = True
+        MetroTextBox5.Enabled = True
+        MetroTextBox6.Enabled = True
+        MetroTextBox7.Enabled = True
+        MetroTextBox8.Enabled = True
+        MetroTextBox9.Enabled = True
+        MetroTextBox10.Enabled = True
+        MetroTextBox11.Enabled = True
+        MetroTextBox12.Enabled = True
+        MetroComboBoxTahun.Enabled = True
     End Sub
 
 
@@ -326,7 +515,6 @@ Public Class MainForm
                 connection.Open()
             End If
 
-            Dim reader As MySqlDataReader
             Dim adapter As MySqlDataAdapter
             adapter = New MySqlDataAdapter(SQLSelectKategori, connection)
             Dim ds As New DataSet()

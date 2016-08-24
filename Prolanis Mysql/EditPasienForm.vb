@@ -61,7 +61,7 @@ Public Class EditPasienForm
                 If reader("kategori") = "Diabetes" Then
                     Me.MetroRadioButtonDiabetes.Checked = True
                 Else
-                    Me.MetroRadioButtonHepatitis.Checked = True
+                    Me.MetroRadioButtonHipertensi.Checked = True
                 End If
                 Me.MetroTextBoxNoBPJS.Text = reader("no_bpjs").ToString()
                 Me.MetroTextBoxAlamat.Text = reader("alamat").ToString()
@@ -94,7 +94,7 @@ Public Class EditPasienForm
             If Me.MetroRadioButtonDiabetes.Checked = True Then
                 kategori = "Diabetes"
             Else
-                kategori = "Hepatitis"
+                kategori = "Hipertensi"
             End If
 
             If (mainForm.connection.State <> ConnectionState.Open) Then

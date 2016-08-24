@@ -32,7 +32,7 @@ Partial Class TambahPasienForm
         Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
         Me.MetroLabel4 = New MetroFramework.Controls.MetroLabel()
         Me.MetroPanel2 = New MetroFramework.Controls.MetroPanel()
-        Me.MetroRadioButtonHepatitis = New MetroFramework.Controls.MetroRadioButton()
+        Me.MetroRadioButtonHipertensi = New MetroFramework.Controls.MetroRadioButton()
         Me.MetroRadioButtonDiabetes = New MetroFramework.Controls.MetroRadioButton()
         Me.MetroLabel5 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTextBoxNoBPJS = New MetroFramework.Controls.MetroTextBox()
@@ -180,7 +180,7 @@ Partial Class TambahPasienForm
         '
         'MetroPanel2
         '
-        Me.MetroPanel2.Controls.Add(Me.MetroRadioButtonHepatitis)
+        Me.MetroPanel2.Controls.Add(Me.MetroRadioButtonHipertensi)
         Me.MetroPanel2.Controls.Add(Me.MetroRadioButtonDiabetes)
         Me.MetroPanel2.HorizontalScrollbarBarColor = True
         Me.MetroPanel2.HorizontalScrollbarHighlightOnWheel = False
@@ -193,15 +193,15 @@ Partial Class TambahPasienForm
         Me.MetroPanel2.VerticalScrollbarHighlightOnWheel = False
         Me.MetroPanel2.VerticalScrollbarSize = 10
         '
-        'MetroRadioButtonHepatitis
+        'MetroRadioButtonHipertensi
         '
-        Me.MetroRadioButtonHepatitis.AutoSize = True
-        Me.MetroRadioButtonHepatitis.Location = New System.Drawing.Point(122, 9)
-        Me.MetroRadioButtonHepatitis.Name = "MetroRadioButtonHepatitis"
-        Me.MetroRadioButtonHepatitis.Size = New System.Drawing.Size(70, 15)
-        Me.MetroRadioButtonHepatitis.TabIndex = 3
-        Me.MetroRadioButtonHepatitis.Text = "Hepatitis"
-        Me.MetroRadioButtonHepatitis.UseSelectable = True
+        Me.MetroRadioButtonHipertensi.AutoSize = True
+        Me.MetroRadioButtonHipertensi.Location = New System.Drawing.Point(122, 9)
+        Me.MetroRadioButtonHipertensi.Name = "MetroRadioButtonHipertensi"
+        Me.MetroRadioButtonHipertensi.Size = New System.Drawing.Size(77, 15)
+        Me.MetroRadioButtonHipertensi.TabIndex = 3
+        Me.MetroRadioButtonHipertensi.Text = "Hipertensi"
+        Me.MetroRadioButtonHipertensi.UseSelectable = True
         '
         'MetroRadioButtonDiabetes
         '
@@ -456,7 +456,7 @@ Partial Class TambahPasienForm
     Friend WithEvents MetroLabel3 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroLabel4 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroPanel2 As MetroFramework.Controls.MetroPanel
-    Friend WithEvents MetroRadioButtonHepatitis As MetroFramework.Controls.MetroRadioButton
+    Friend WithEvents MetroRadioButtonHipertensi As MetroFramework.Controls.MetroRadioButton
     Friend WithEvents MetroRadioButtonDiabetes As MetroFramework.Controls.MetroRadioButton
     Friend WithEvents MetroLabel5 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroTextBoxNoBPJS As MetroFramework.Controls.MetroTextBox

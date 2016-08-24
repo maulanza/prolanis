@@ -56,7 +56,7 @@ Public Class TambahPasienForm
             If Me.MetroRadioButtonDiabetes.Checked = True Then
                 kategori = "Diabetes"
             Else
-                kategori = "Hepatitis"
+                kategori = "Hipertensi"
             End If
 
             If (mainForm.connection.State <> ConnectionState.Open) Then

@@ -36,15 +36,10 @@ Partial Class MainForm
         Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.MetroTabControl = New MetroFramework.Controls.MetroTabControl()
         Me.MetroTabPageDashboard = New MetroFramework.Controls.MetroTabPage()
         Me.MetroLabel17 = New MetroFramework.Controls.MetroLabel()
@@ -61,12 +56,49 @@ Partial Class MainForm
         Me.MetroTileTambahPasien = New MetroFramework.Controls.MetroTile()
         Me.MetroGrid1 = New MetroFramework.Controls.MetroGrid()
         Me.MetroTabPageJadwal = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroGrid3 = New MetroFramework.Controls.MetroGrid()
-        Me.MetroPanel5 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroPanel6 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroPanel10 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroLabel39 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroPanel9 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroLabel16 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroPanel8 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroLabel37 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel36 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel35 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroPanel7 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroLabel38 = New MetroFramework.Controls.MetroLabel()
         Me.MetroLabel18 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel34 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroComboBoxTahun = New MetroFramework.Controls.MetroComboBox()
+        Me.MetroLabel33 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel32 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroTextBox12 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox11 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox10 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox9 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox8 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox7 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox6 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox5 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox4 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox3 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox2 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroTextBox1 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroLabel31 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel24 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel25 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel26 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel27 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel28 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel29 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel30 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel20 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel21 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel22 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel23 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroPanel5 = New MetroFramework.Controls.MetroPanel()
         Me.MetroTileEditJadwal = New MetroFramework.Controls.MetroTile()
-        Me.MetroTileHapusJadwal = New MetroFramework.Controls.MetroTile()
-        Me.MetroTileTambahJadwal = New MetroFramework.Controls.MetroTile()
+        Me.MetroTileSimpanJadwal = New MetroFramework.Controls.MetroTile()
         Me.MetroLabel6 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPageKirimPesan = New MetroFramework.Controls.MetroTabPage()
         Me.MetroPanel4 = New MetroFramework.Controls.MetroPanel()
@@ -82,11 +114,28 @@ Partial Class MainForm
         Me.MetroLabel7 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPageKotakMasuk = New MetroFramework.Controls.MetroTabPage()
         Me.MetroGrid2 = New MetroFramework.Controls.MetroGrid()
+        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.InboxBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.GammuDataSet1 = New Prolanis_Mysql.gammuDataSet()
         Me.MetroLabel8 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPagePesanKeluar = New MetroFramework.Controls.MetroTabPage()
         Me.MetroGrid4 = New MetroFramework.Controls.MetroGrid()
+        Me.DataGridViewTextBoxColumn14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.SentitemsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.MetroLabel9 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPageSettings = New MetroFramework.Controls.MetroTabPage()
+        Me.MetroPanel3 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroButtonStop = New MetroFramework.Controls.MetroButton()
+        Me.MetroLabelStatusGammu = New MetroFramework.Controls.MetroLabel()
+        Me.MetroButtonRun = New MetroFramework.Controls.MetroButton()
+        Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
         Me.MetroLabel10 = New MetroFramework.Controls.MetroLabel()
         Me.MetroButtonJadwal = New MetroFramework.Controls.MetroButton()
         Me.MetroButtonKirimPesan = New MetroFramework.Controls.MetroButton()
@@ -94,6 +143,7 @@ Partial Class MainForm
         Me.MetroButtonPesanKeluar = New MetroFramework.Controls.MetroButton()
         Me.MetroButtonSettings = New MetroFramework.Controls.MetroButton()
         Me.MetroPanel1 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroButtonLogout = New MetroFramework.Controls.MetroButton()
         Me.MetroTile1 = New MetroFramework.Controls.MetroTile()
         Me.MetroTileDashboard = New MetroFramework.Controls.MetroTile()
         Me.MetroButtonPasien = New MetroFramework.Controls.MetroButton()
@@ -102,26 +152,8 @@ Partial Class MainForm
         Me.MetroLabel2 = New MetroFramework.Controls.MetroLabel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
-        Me.MetroLabelStatusGammu = New MetroFramework.Controls.MetroLabel()
-        Me.MetroButtonRun = New MetroFramework.Controls.MetroButton()
-        Me.MetroPanel3 = New MetroFramework.Controls.MetroPanel()
-        Me.MetroButtonStop = New MetroFramework.Controls.MetroButton()
-        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.InboxBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.GammuDataSet1 = New Prolanis_Mysql.gammuDataSet()
-        Me.DataGridViewTextBoxColumn14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.SentitemsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.SentitemsTableAdapter1 = New Prolanis_Mysql.gammuDataSetTableAdapters.sentitemsTableAdapter()
         Me.InboxTableAdapter1 = New Prolanis_Mysql.gammuDataSetTableAdapters.inboxTableAdapter()
-        Me.MetroButtonLogout = New MetroFramework.Controls.MetroButton()
         Me.MetroTabControl.SuspendLayout()
         Me.MetroTabPageDashboard.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -129,22 +161,26 @@ Partial Class MainForm
         Me.MetroPanel2.SuspendLayout()
         CType(Me.MetroGrid1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MetroTabPageJadwal.SuspendLayout()
-        CType(Me.MetroGrid3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MetroPanel6.SuspendLayout()
+        Me.MetroPanel10.SuspendLayout()
+        Me.MetroPanel9.SuspendLayout()
+        Me.MetroPanel8.SuspendLayout()
+        Me.MetroPanel7.SuspendLayout()
         Me.MetroPanel5.SuspendLayout()
         Me.MetroTabPageKirimPesan.SuspendLayout()
         Me.MetroPanel4.SuspendLayout()
         Me.MetroTabPageKotakMasuk.SuspendLayout()
         CType(Me.MetroGrid2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.InboxBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GammuDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MetroTabPagePesanKeluar.SuspendLayout()
         CType(Me.MetroGrid4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SentitemsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MetroTabPageSettings.SuspendLayout()
+        Me.MetroPanel3.SuspendLayout()
         Me.MetroPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MetroPanel3.SuspendLayout()
-        CType(Me.InboxBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GammuDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SentitemsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MetroTabControl
@@ -160,7 +196,7 @@ Partial Class MainForm
         Me.MetroTabControl.FontWeight = MetroFramework.MetroTabControlWeight.Regular
         Me.MetroTabControl.Location = New System.Drawing.Point(172, 27)
         Me.MetroTabControl.Name = "MetroTabControl"
-        Me.MetroTabControl.SelectedIndex = 0
+        Me.MetroTabControl.SelectedIndex = 6
         Me.MetroTabControl.Size = New System.Drawing.Size(1171, 651)
         Me.MetroTabControl.Style = MetroFramework.MetroColorStyle.Green
         Me.MetroTabControl.TabIndex = 0
@@ -412,7 +448,7 @@ Partial Class MainForm
         '
         'MetroTabPageJadwal
         '
-        Me.MetroTabPageJadwal.Controls.Add(Me.MetroGrid3)
+        Me.MetroTabPageJadwal.Controls.Add(Me.MetroPanel6)
         Me.MetroTabPageJadwal.Controls.Add(Me.MetroPanel5)
         Me.MetroTabPageJadwal.Controls.Add(Me.MetroLabel6)
         Me.MetroTabPageJadwal.HorizontalScrollbarBarColor = True
@@ -426,74 +462,832 @@ Partial Class MainForm
         Me.MetroTabPageJadwal.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPageJadwal.VerticalScrollbarSize = 10
         '
-        'MetroGrid3
+        'MetroPanel6
         '
-        Me.MetroGrid3.AllowUserToOrderColumns = True
-        Me.MetroGrid3.AllowUserToResizeRows = False
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.Padding = New System.Windows.Forms.Padding(5)
-        Me.MetroGrid3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle6
-        Me.MetroGrid3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.MetroGrid3.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
-        Me.MetroGrid3.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.MetroGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.MetroGrid3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
-        Me.MetroGrid3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
-        Me.MetroGrid3.ColumnHeadersHeight = 35
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MetroGrid3.DefaultCellStyle = DataGridViewCellStyle8
-        Me.MetroGrid3.EnableHeadersVisualStyles = False
-        Me.MetroGrid3.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
-        Me.MetroGrid3.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.MetroGrid3.Location = New System.Drawing.Point(3, 47)
-        Me.MetroGrid3.MultiSelect = False
-        Me.MetroGrid3.Name = "MetroGrid3"
-        Me.MetroGrid3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid3.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
-        Me.MetroGrid3.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle10.Padding = New System.Windows.Forms.Padding(5)
-        Me.MetroGrid3.RowsDefaultCellStyle = DataGridViewCellStyle10
-        Me.MetroGrid3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.MetroGrid3.Size = New System.Drawing.Size(766, 562)
-        Me.MetroGrid3.Style = MetroFramework.MetroColorStyle.Green
-        Me.MetroGrid3.TabIndex = 15
-        Me.MetroGrid3.UseStyleColors = True
+        Me.MetroPanel6.BackColor = System.Drawing.SystemColors.Control
+        Me.MetroPanel6.Controls.Add(Me.MetroPanel10)
+        Me.MetroPanel6.Controls.Add(Me.MetroPanel9)
+        Me.MetroPanel6.Controls.Add(Me.MetroPanel8)
+        Me.MetroPanel6.Controls.Add(Me.MetroPanel7)
+        Me.MetroPanel6.ForeColor = System.Drawing.SystemColors.Control
+        Me.MetroPanel6.HorizontalScrollbarBarColor = True
+        Me.MetroPanel6.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel6.HorizontalScrollbarSize = 10
+        Me.MetroPanel6.Location = New System.Drawing.Point(3, 39)
+        Me.MetroPanel6.Name = "MetroPanel6"
+        Me.MetroPanel6.Size = New System.Drawing.Size(563, 332)
+        Me.MetroPanel6.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroPanel6.TabIndex = 15
+        Me.MetroPanel6.UseStyleColors = True
+        Me.MetroPanel6.VerticalScrollbarBarColor = True
+        Me.MetroPanel6.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel6.VerticalScrollbarSize = 10
+        '
+        'MetroPanel10
+        '
+        Me.MetroPanel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroPanel10.Controls.Add(Me.MetroLabel39)
+        Me.MetroPanel10.HorizontalScrollbarBarColor = True
+        Me.MetroPanel10.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel10.HorizontalScrollbarSize = 10
+        Me.MetroPanel10.Location = New System.Drawing.Point(124, 14)
+        Me.MetroPanel10.Name = "MetroPanel10"
+        Me.MetroPanel10.Size = New System.Drawing.Size(423, 32)
+        Me.MetroPanel10.TabIndex = 34
+        Me.MetroPanel10.UseCustomBackColor = True
+        Me.MetroPanel10.VerticalScrollbarBarColor = True
+        Me.MetroPanel10.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel10.VerticalScrollbarSize = 10
+        '
+        'MetroLabel39
+        '
+        Me.MetroLabel39.AutoSize = True
+        Me.MetroLabel39.FontWeight = MetroFramework.MetroLabelWeight.Bold
+        Me.MetroLabel39.Location = New System.Drawing.Point(180, 7)
+        Me.MetroLabel39.Name = "MetroLabel39"
+        Me.MetroLabel39.Size = New System.Drawing.Size(55, 19)
+        Me.MetroLabel39.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroLabel39.TabIndex = 2
+        Me.MetroLabel39.Text = "Jadwal"
+        Me.MetroLabel39.UseCustomBackColor = True
+        Me.MetroLabel39.UseCustomForeColor = True
+        Me.MetroLabel39.UseStyleColors = True
+        '
+        'MetroPanel9
+        '
+        Me.MetroPanel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroPanel9.Controls.Add(Me.MetroLabel16)
+        Me.MetroPanel9.HorizontalScrollbarBarColor = True
+        Me.MetroPanel9.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel9.HorizontalScrollbarSize = 10
+        Me.MetroPanel9.Location = New System.Drawing.Point(11, 14)
+        Me.MetroPanel9.Name = "MetroPanel9"
+        Me.MetroPanel9.Size = New System.Drawing.Size(97, 32)
+        Me.MetroPanel9.TabIndex = 33
+        Me.MetroPanel9.UseCustomBackColor = True
+        Me.MetroPanel9.VerticalScrollbarBarColor = True
+        Me.MetroPanel9.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel9.VerticalScrollbarSize = 10
+        '
+        'MetroLabel16
+        '
+        Me.MetroLabel16.AutoSize = True
+        Me.MetroLabel16.FontWeight = MetroFramework.MetroLabelWeight.Bold
+        Me.MetroLabel16.Location = New System.Drawing.Point(16, 7)
+        Me.MetroLabel16.Name = "MetroLabel16"
+        Me.MetroLabel16.Size = New System.Drawing.Size(67, 19)
+        Me.MetroLabel16.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroLabel16.TabIndex = 2
+        Me.MetroLabel16.Text = "Kategori"
+        Me.MetroLabel16.UseCustomBackColor = True
+        Me.MetroLabel16.UseCustomForeColor = True
+        Me.MetroLabel16.UseStyleColors = True
+        '
+        'MetroPanel8
+        '
+        Me.MetroPanel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroPanel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.MetroPanel8.Controls.Add(Me.MetroLabel37)
+        Me.MetroPanel8.Controls.Add(Me.MetroLabel36)
+        Me.MetroPanel8.Controls.Add(Me.MetroLabel35)
+        Me.MetroPanel8.HorizontalScrollbarBarColor = True
+        Me.MetroPanel8.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel8.HorizontalScrollbarSize = 10
+        Me.MetroPanel8.Location = New System.Drawing.Point(11, 52)
+        Me.MetroPanel8.Name = "MetroPanel8"
+        Me.MetroPanel8.Size = New System.Drawing.Size(97, 265)
+        Me.MetroPanel8.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroPanel8.TabIndex = 32
+        Me.MetroPanel8.UseCustomBackColor = True
+        Me.MetroPanel8.UseStyleColors = True
+        Me.MetroPanel8.VerticalScrollbarBarColor = True
+        Me.MetroPanel8.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel8.VerticalScrollbarSize = 10
+        '
+        'MetroLabel37
+        '
+        Me.MetroLabel37.AutoSize = True
+        Me.MetroLabel37.FontWeight = MetroFramework.MetroLabelWeight.Bold
+        Me.MetroLabel37.ForeColor = System.Drawing.Color.White
+        Me.MetroLabel37.Location = New System.Drawing.Point(29, 111)
+        Me.MetroLabel37.Name = "MetroLabel37"
+        Me.MetroLabel37.Size = New System.Drawing.Size(34, 19)
+        Me.MetroLabel37.TabIndex = 4
+        Me.MetroLabel37.Text = "dan"
+        Me.MetroLabel37.UseCustomBackColor = True
+        Me.MetroLabel37.UseCustomForeColor = True
+        '
+        'MetroLabel36
+        '
+        Me.MetroLabel36.AutoSize = True
+        Me.MetroLabel36.FontWeight = MetroFramework.MetroLabelWeight.Bold
+        Me.MetroLabel36.ForeColor = System.Drawing.Color.White
+        Me.MetroLabel36.Location = New System.Drawing.Point(12, 130)
+        Me.MetroLabel36.Name = "MetroLabel36"
+        Me.MetroLabel36.Size = New System.Drawing.Size(67, 19)
+        Me.MetroLabel36.TabIndex = 3
+        Me.MetroLabel36.Text = "Diabetes"
+        Me.MetroLabel36.UseCustomBackColor = True
+        Me.MetroLabel36.UseCustomForeColor = True
+        '
+        'MetroLabel35
+        '
+        Me.MetroLabel35.AutoSize = True
+        Me.MetroLabel35.FontWeight = MetroFramework.MetroLabelWeight.Bold
+        Me.MetroLabel35.ForeColor = System.Drawing.Color.White
+        Me.MetroLabel35.Location = New System.Drawing.Point(8, 92)
+        Me.MetroLabel35.Name = "MetroLabel35"
+        Me.MetroLabel35.Size = New System.Drawing.Size(78, 19)
+        Me.MetroLabel35.TabIndex = 2
+        Me.MetroLabel35.Text = "Hipertensi"
+        Me.MetroLabel35.UseCustomBackColor = True
+        Me.MetroLabel35.UseCustomForeColor = True
+        '
+        'MetroPanel7
+        '
+        Me.MetroPanel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroPanel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel38)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel18)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel34)
+        Me.MetroPanel7.Controls.Add(Me.MetroComboBoxTahun)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel33)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel32)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox12)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox11)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox10)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox9)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox8)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox7)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox6)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox5)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox4)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox3)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox2)
+        Me.MetroPanel7.Controls.Add(Me.MetroTextBox1)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel31)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel24)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel25)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel26)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel27)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel28)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel29)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel30)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel20)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel21)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel22)
+        Me.MetroPanel7.Controls.Add(Me.MetroLabel23)
+        Me.MetroPanel7.HorizontalScrollbarBarColor = True
+        Me.MetroPanel7.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel7.HorizontalScrollbarSize = 10
+        Me.MetroPanel7.Location = New System.Drawing.Point(124, 52)
+        Me.MetroPanel7.Name = "MetroPanel7"
+        Me.MetroPanel7.Size = New System.Drawing.Size(423, 265)
+        Me.MetroPanel7.TabIndex = 16
+        Me.MetroPanel7.UseCustomBackColor = True
+        Me.MetroPanel7.VerticalScrollbarBarColor = True
+        Me.MetroPanel7.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel7.VerticalScrollbarSize = 10
+        '
+        'MetroLabel38
+        '
+        Me.MetroLabel38.AutoSize = True
+        Me.MetroLabel38.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel38.Location = New System.Drawing.Point(337, 55)
+        Me.MetroLabel38.Name = "MetroLabel38"
+        Me.MetroLabel38.Size = New System.Drawing.Size(53, 19)
+        Me.MetroLabel38.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroLabel38.TabIndex = 33
+        Me.MetroLabel38.Text = "tanggal"
+        Me.MetroLabel38.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroLabel38.UseCustomBackColor = True
+        Me.MetroLabel38.UseCustomForeColor = True
+        Me.MetroLabel38.UseStyleColors = True
+        '
+        'MetroLabel18
+        '
+        Me.MetroLabel18.AutoSize = True
+        Me.MetroLabel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel18.Location = New System.Drawing.Point(256, 55)
+        Me.MetroLabel18.Name = "MetroLabel18"
+        Me.MetroLabel18.Size = New System.Drawing.Size(41, 19)
+        Me.MetroLabel18.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroLabel18.TabIndex = 32
+        Me.MetroLabel18.Text = "bulan"
+        Me.MetroLabel18.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroLabel18.UseCustomBackColor = True
+        Me.MetroLabel18.UseCustomForeColor = True
+        Me.MetroLabel18.UseStyleColors = True
+        '
+        'MetroLabel34
+        '
+        Me.MetroLabel34.AutoSize = True
+        Me.MetroLabel34.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel34.Location = New System.Drawing.Point(27, 58)
+        Me.MetroLabel34.Name = "MetroLabel34"
+        Me.MetroLabel34.Size = New System.Drawing.Size(41, 19)
+        Me.MetroLabel34.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroLabel34.TabIndex = 31
+        Me.MetroLabel34.Text = "bulan"
+        Me.MetroLabel34.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroLabel34.UseCustomBackColor = True
+        Me.MetroLabel34.UseCustomForeColor = True
+        Me.MetroLabel34.UseStyleColors = True
+        '
+        'MetroComboBoxTahun
+        '
+        Me.MetroComboBoxTahun.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MetroComboBoxTahun.FormattingEnabled = True
+        Me.MetroComboBoxTahun.ItemHeight = 23
+        Me.MetroComboBoxTahun.Items.AddRange(New Object() {"2016", "2017", "2018", "2019", "2020"})
+        Me.MetroComboBoxTahun.Location = New System.Drawing.Point(209, 10)
+        Me.MetroComboBoxTahun.Name = "MetroComboBoxTahun"
+        Me.MetroComboBoxTahun.Size = New System.Drawing.Size(93, 29)
+        Me.MetroComboBoxTahun.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroComboBoxTahun.TabIndex = 30
+        Me.MetroComboBoxTahun.UseSelectable = True
+        Me.MetroComboBoxTahun.UseStyleColors = True
+        '
+        'MetroLabel33
+        '
+        Me.MetroLabel33.AutoSize = True
+        Me.MetroLabel33.BackColor = System.Drawing.Color.White
+        Me.MetroLabel33.FontSize = MetroFramework.MetroLabelSize.Tall
+        Me.MetroLabel33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel33.Location = New System.Drawing.Point(145, 12)
+        Me.MetroLabel33.Name = "MetroLabel33"
+        Me.MetroLabel33.Size = New System.Drawing.Size(57, 25)
+        Me.MetroLabel33.TabIndex = 29
+        Me.MetroLabel33.Text = "Tahun"
+        Me.MetroLabel33.UseCustomBackColor = True
+        Me.MetroLabel33.UseCustomForeColor = True
+        '
+        'MetroLabel32
+        '
+        Me.MetroLabel32.AutoSize = True
+        Me.MetroLabel32.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel32.Location = New System.Drawing.Point(128, 58)
+        Me.MetroLabel32.Name = "MetroLabel32"
+        Me.MetroLabel32.Size = New System.Drawing.Size(53, 19)
+        Me.MetroLabel32.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroLabel32.TabIndex = 28
+        Me.MetroLabel32.Text = "tanggal"
+        Me.MetroLabel32.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroLabel32.UseCustomBackColor = True
+        Me.MetroLabel32.UseCustomForeColor = True
+        Me.MetroLabel32.UseStyleColors = True
+        '
+        'MetroTextBox12
+        '
+        '
+        '
+        '
+        Me.MetroTextBox12.CustomButton.Image = Nothing
+        Me.MetroTextBox12.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox12.CustomButton.Name = ""
+        Me.MetroTextBox12.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox12.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox12.CustomButton.TabIndex = 1
+        Me.MetroTextBox12.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox12.CustomButton.UseSelectable = True
+        Me.MetroTextBox12.CustomButton.Visible = False
+        Me.MetroTextBox12.Lines = New String(-1) {}
+        Me.MetroTextBox12.Location = New System.Drawing.Point(327, 225)
+        Me.MetroTextBox12.MaxLength = 32767
+        Me.MetroTextBox12.Name = "MetroTextBox12"
+        Me.MetroTextBox12.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox12.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox12.SelectedText = ""
+        Me.MetroTextBox12.SelectionLength = 0
+        Me.MetroTextBox12.SelectionStart = 0
+        Me.MetroTextBox12.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox12.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox12.TabIndex = 27
+        Me.MetroTextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox12.UseSelectable = True
+        Me.MetroTextBox12.UseStyleColors = True
+        Me.MetroTextBox12.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox12.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox11
+        '
+        '
+        '
+        '
+        Me.MetroTextBox11.CustomButton.Image = Nothing
+        Me.MetroTextBox11.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox11.CustomButton.Name = ""
+        Me.MetroTextBox11.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox11.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox11.CustomButton.TabIndex = 1
+        Me.MetroTextBox11.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox11.CustomButton.UseSelectable = True
+        Me.MetroTextBox11.CustomButton.Visible = False
+        Me.MetroTextBox11.Lines = New String(-1) {}
+        Me.MetroTextBox11.Location = New System.Drawing.Point(327, 196)
+        Me.MetroTextBox11.MaxLength = 32767
+        Me.MetroTextBox11.Name = "MetroTextBox11"
+        Me.MetroTextBox11.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox11.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox11.SelectedText = ""
+        Me.MetroTextBox11.SelectionLength = 0
+        Me.MetroTextBox11.SelectionStart = 0
+        Me.MetroTextBox11.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox11.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox11.TabIndex = 26
+        Me.MetroTextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox11.UseSelectable = True
+        Me.MetroTextBox11.UseStyleColors = True
+        Me.MetroTextBox11.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox11.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox10
+        '
+        '
+        '
+        '
+        Me.MetroTextBox10.CustomButton.Image = Nothing
+        Me.MetroTextBox10.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox10.CustomButton.Name = ""
+        Me.MetroTextBox10.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox10.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox10.CustomButton.TabIndex = 1
+        Me.MetroTextBox10.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox10.CustomButton.UseSelectable = True
+        Me.MetroTextBox10.CustomButton.Visible = False
+        Me.MetroTextBox10.Lines = New String(-1) {}
+        Me.MetroTextBox10.Location = New System.Drawing.Point(326, 167)
+        Me.MetroTextBox10.MaxLength = 32767
+        Me.MetroTextBox10.Name = "MetroTextBox10"
+        Me.MetroTextBox10.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox10.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox10.SelectedText = ""
+        Me.MetroTextBox10.SelectionLength = 0
+        Me.MetroTextBox10.SelectionStart = 0
+        Me.MetroTextBox10.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox10.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox10.TabIndex = 25
+        Me.MetroTextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox10.UseSelectable = True
+        Me.MetroTextBox10.UseStyleColors = True
+        Me.MetroTextBox10.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox10.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox9
+        '
+        '
+        '
+        '
+        Me.MetroTextBox9.CustomButton.Image = Nothing
+        Me.MetroTextBox9.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox9.CustomButton.Name = ""
+        Me.MetroTextBox9.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox9.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox9.CustomButton.TabIndex = 1
+        Me.MetroTextBox9.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox9.CustomButton.UseSelectable = True
+        Me.MetroTextBox9.CustomButton.Visible = False
+        Me.MetroTextBox9.Lines = New String(-1) {}
+        Me.MetroTextBox9.Location = New System.Drawing.Point(326, 138)
+        Me.MetroTextBox9.MaxLength = 32767
+        Me.MetroTextBox9.Name = "MetroTextBox9"
+        Me.MetroTextBox9.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox9.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox9.SelectedText = ""
+        Me.MetroTextBox9.SelectionLength = 0
+        Me.MetroTextBox9.SelectionStart = 0
+        Me.MetroTextBox9.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox9.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox9.TabIndex = 24
+        Me.MetroTextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox9.UseSelectable = True
+        Me.MetroTextBox9.UseStyleColors = True
+        Me.MetroTextBox9.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox9.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox8
+        '
+        '
+        '
+        '
+        Me.MetroTextBox8.CustomButton.Image = Nothing
+        Me.MetroTextBox8.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox8.CustomButton.Name = ""
+        Me.MetroTextBox8.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox8.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox8.CustomButton.TabIndex = 1
+        Me.MetroTextBox8.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox8.CustomButton.UseSelectable = True
+        Me.MetroTextBox8.CustomButton.Visible = False
+        Me.MetroTextBox8.Lines = New String(-1) {}
+        Me.MetroTextBox8.Location = New System.Drawing.Point(327, 109)
+        Me.MetroTextBox8.MaxLength = 32767
+        Me.MetroTextBox8.Name = "MetroTextBox8"
+        Me.MetroTextBox8.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox8.SelectedText = ""
+        Me.MetroTextBox8.SelectionLength = 0
+        Me.MetroTextBox8.SelectionStart = 0
+        Me.MetroTextBox8.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox8.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox8.TabIndex = 23
+        Me.MetroTextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox8.UseSelectable = True
+        Me.MetroTextBox8.UseStyleColors = True
+        Me.MetroTextBox8.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox8.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox7
+        '
+        '
+        '
+        '
+        Me.MetroTextBox7.CustomButton.Image = Nothing
+        Me.MetroTextBox7.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox7.CustomButton.Name = ""
+        Me.MetroTextBox7.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox7.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox7.CustomButton.TabIndex = 1
+        Me.MetroTextBox7.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox7.CustomButton.UseSelectable = True
+        Me.MetroTextBox7.CustomButton.Visible = False
+        Me.MetroTextBox7.Lines = New String(-1) {}
+        Me.MetroTextBox7.Location = New System.Drawing.Point(326, 80)
+        Me.MetroTextBox7.MaxLength = 32767
+        Me.MetroTextBox7.Name = "MetroTextBox7"
+        Me.MetroTextBox7.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox7.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox7.SelectedText = ""
+        Me.MetroTextBox7.SelectionLength = 0
+        Me.MetroTextBox7.SelectionStart = 0
+        Me.MetroTextBox7.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox7.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox7.TabIndex = 22
+        Me.MetroTextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox7.UseSelectable = True
+        Me.MetroTextBox7.UseStyleColors = True
+        Me.MetroTextBox7.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox7.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox6
+        '
+        '
+        '
+        '
+        Me.MetroTextBox6.CustomButton.Image = Nothing
+        Me.MetroTextBox6.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox6.CustomButton.Name = ""
+        Me.MetroTextBox6.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox6.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox6.CustomButton.TabIndex = 1
+        Me.MetroTextBox6.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox6.CustomButton.UseSelectable = True
+        Me.MetroTextBox6.CustomButton.Visible = False
+        Me.MetroTextBox6.Lines = New String(-1) {}
+        Me.MetroTextBox6.Location = New System.Drawing.Point(116, 225)
+        Me.MetroTextBox6.MaxLength = 32767
+        Me.MetroTextBox6.Name = "MetroTextBox6"
+        Me.MetroTextBox6.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox6.SelectedText = ""
+        Me.MetroTextBox6.SelectionLength = 0
+        Me.MetroTextBox6.SelectionStart = 0
+        Me.MetroTextBox6.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox6.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox6.TabIndex = 21
+        Me.MetroTextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox6.UseSelectable = True
+        Me.MetroTextBox6.UseStyleColors = True
+        Me.MetroTextBox6.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox6.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox5
+        '
+        '
+        '
+        '
+        Me.MetroTextBox5.CustomButton.Image = Nothing
+        Me.MetroTextBox5.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox5.CustomButton.Name = ""
+        Me.MetroTextBox5.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox5.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox5.CustomButton.TabIndex = 1
+        Me.MetroTextBox5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox5.CustomButton.UseSelectable = True
+        Me.MetroTextBox5.CustomButton.Visible = False
+        Me.MetroTextBox5.Lines = New String(-1) {}
+        Me.MetroTextBox5.Location = New System.Drawing.Point(117, 196)
+        Me.MetroTextBox5.MaxLength = 32767
+        Me.MetroTextBox5.Name = "MetroTextBox5"
+        Me.MetroTextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox5.SelectedText = ""
+        Me.MetroTextBox5.SelectionLength = 0
+        Me.MetroTextBox5.SelectionStart = 0
+        Me.MetroTextBox5.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox5.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox5.TabIndex = 20
+        Me.MetroTextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox5.UseSelectable = True
+        Me.MetroTextBox5.UseStyleColors = True
+        Me.MetroTextBox5.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox5.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox4
+        '
+        '
+        '
+        '
+        Me.MetroTextBox4.CustomButton.Image = Nothing
+        Me.MetroTextBox4.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox4.CustomButton.Name = ""
+        Me.MetroTextBox4.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox4.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox4.CustomButton.TabIndex = 1
+        Me.MetroTextBox4.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox4.CustomButton.UseSelectable = True
+        Me.MetroTextBox4.CustomButton.Visible = False
+        Me.MetroTextBox4.Lines = New String(-1) {}
+        Me.MetroTextBox4.Location = New System.Drawing.Point(117, 167)
+        Me.MetroTextBox4.MaxLength = 32767
+        Me.MetroTextBox4.Name = "MetroTextBox4"
+        Me.MetroTextBox4.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox4.SelectedText = ""
+        Me.MetroTextBox4.SelectionLength = 0
+        Me.MetroTextBox4.SelectionStart = 0
+        Me.MetroTextBox4.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox4.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox4.TabIndex = 19
+        Me.MetroTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox4.UseSelectable = True
+        Me.MetroTextBox4.UseStyleColors = True
+        Me.MetroTextBox4.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox4.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox3
+        '
+        '
+        '
+        '
+        Me.MetroTextBox3.CustomButton.Image = Nothing
+        Me.MetroTextBox3.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox3.CustomButton.Name = ""
+        Me.MetroTextBox3.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox3.CustomButton.TabIndex = 1
+        Me.MetroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox3.CustomButton.UseSelectable = True
+        Me.MetroTextBox3.CustomButton.Visible = False
+        Me.MetroTextBox3.Lines = New String(-1) {}
+        Me.MetroTextBox3.Location = New System.Drawing.Point(117, 138)
+        Me.MetroTextBox3.MaxLength = 32767
+        Me.MetroTextBox3.Name = "MetroTextBox3"
+        Me.MetroTextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox3.SelectedText = ""
+        Me.MetroTextBox3.SelectionLength = 0
+        Me.MetroTextBox3.SelectionStart = 0
+        Me.MetroTextBox3.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox3.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox3.TabIndex = 18
+        Me.MetroTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox3.UseSelectable = True
+        Me.MetroTextBox3.UseStyleColors = True
+        Me.MetroTextBox3.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox3.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox2
+        '
+        '
+        '
+        '
+        Me.MetroTextBox2.CustomButton.Image = Nothing
+        Me.MetroTextBox2.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox2.CustomButton.Name = ""
+        Me.MetroTextBox2.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox2.CustomButton.TabIndex = 1
+        Me.MetroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox2.CustomButton.UseSelectable = True
+        Me.MetroTextBox2.CustomButton.Visible = False
+        Me.MetroTextBox2.Lines = New String(-1) {}
+        Me.MetroTextBox2.Location = New System.Drawing.Point(117, 109)
+        Me.MetroTextBox2.MaxLength = 32767
+        Me.MetroTextBox2.Name = "MetroTextBox2"
+        Me.MetroTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox2.SelectedText = ""
+        Me.MetroTextBox2.SelectionLength = 0
+        Me.MetroTextBox2.SelectionStart = 0
+        Me.MetroTextBox2.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox2.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox2.TabIndex = 17
+        Me.MetroTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox2.UseSelectable = True
+        Me.MetroTextBox2.UseStyleColors = True
+        Me.MetroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox2.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroTextBox1
+        '
+        '
+        '
+        '
+        Me.MetroTextBox1.CustomButton.Image = Nothing
+        Me.MetroTextBox1.CustomButton.Location = New System.Drawing.Point(53, 1)
+        Me.MetroTextBox1.CustomButton.Name = ""
+        Me.MetroTextBox1.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.MetroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
+        Me.MetroTextBox1.CustomButton.TabIndex = 1
+        Me.MetroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTextBox1.CustomButton.UseSelectable = True
+        Me.MetroTextBox1.CustomButton.Visible = False
+        Me.MetroTextBox1.Lines = New String(-1) {}
+        Me.MetroTextBox1.Location = New System.Drawing.Point(117, 80)
+        Me.MetroTextBox1.MaxLength = 32767
+        Me.MetroTextBox1.Name = "MetroTextBox1"
+        Me.MetroTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.MetroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.MetroTextBox1.SelectedText = ""
+        Me.MetroTextBox1.SelectionLength = 0
+        Me.MetroTextBox1.SelectionStart = 0
+        Me.MetroTextBox1.Size = New System.Drawing.Size(75, 23)
+        Me.MetroTextBox1.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTextBox1.TabIndex = 16
+        Me.MetroTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.MetroTextBox1.UseSelectable = True
+        Me.MetroTextBox1.UseStyleColors = True
+        Me.MetroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.MetroTextBox1.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroLabel31
+        '
+        Me.MetroLabel31.AutoSize = True
+        Me.MetroLabel31.BackColor = System.Drawing.Color.White
+        Me.MetroLabel31.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel31.Location = New System.Drawing.Point(18, 196)
+        Me.MetroLabel31.Name = "MetroLabel31"
+        Me.MetroLabel31.Size = New System.Drawing.Size(31, 19)
+        Me.MetroLabel31.TabIndex = 15
+        Me.MetroLabel31.Text = "Mei"
+        Me.MetroLabel31.UseCustomBackColor = True
+        Me.MetroLabel31.UseCustomForeColor = True
+        '
+        'MetroLabel24
+        '
+        Me.MetroLabel24.AutoSize = True
+        Me.MetroLabel24.BackColor = System.Drawing.Color.White
+        Me.MetroLabel24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel24.Location = New System.Drawing.Point(228, 225)
+        Me.MetroLabel24.Name = "MetroLabel24"
+        Me.MetroLabel24.Size = New System.Drawing.Size(69, 19)
+        Me.MetroLabel24.TabIndex = 8
+        Me.MetroLabel24.Text = "Desember"
+        Me.MetroLabel24.UseCustomBackColor = True
+        Me.MetroLabel24.UseCustomForeColor = True
+        '
+        'MetroLabel25
+        '
+        Me.MetroLabel25.AutoSize = True
+        Me.MetroLabel25.BackColor = System.Drawing.Color.White
+        Me.MetroLabel25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel25.Location = New System.Drawing.Point(228, 196)
+        Me.MetroLabel25.Name = "MetroLabel25"
+        Me.MetroLabel25.Size = New System.Drawing.Size(72, 19)
+        Me.MetroLabel25.TabIndex = 9
+        Me.MetroLabel25.Text = "November"
+        Me.MetroLabel25.UseCustomBackColor = True
+        Me.MetroLabel25.UseCustomForeColor = True
+        '
+        'MetroLabel26
+        '
+        Me.MetroLabel26.AutoSize = True
+        Me.MetroLabel26.BackColor = System.Drawing.Color.White
+        Me.MetroLabel26.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel26.Location = New System.Drawing.Point(228, 167)
+        Me.MetroLabel26.Name = "MetroLabel26"
+        Me.MetroLabel26.Size = New System.Drawing.Size(58, 19)
+        Me.MetroLabel26.TabIndex = 10
+        Me.MetroLabel26.Text = "Oktober"
+        Me.MetroLabel26.UseCustomBackColor = True
+        Me.MetroLabel26.UseCustomForeColor = True
+        '
+        'MetroLabel27
+        '
+        Me.MetroLabel27.AutoSize = True
+        Me.MetroLabel27.BackColor = System.Drawing.Color.White
+        Me.MetroLabel27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel27.Location = New System.Drawing.Point(228, 138)
+        Me.MetroLabel27.Name = "MetroLabel27"
+        Me.MetroLabel27.Size = New System.Drawing.Size(74, 19)
+        Me.MetroLabel27.TabIndex = 11
+        Me.MetroLabel27.Text = "September"
+        Me.MetroLabel27.UseCustomBackColor = True
+        Me.MetroLabel27.UseCustomForeColor = True
+        '
+        'MetroLabel28
+        '
+        Me.MetroLabel28.AutoSize = True
+        Me.MetroLabel28.BackColor = System.Drawing.Color.White
+        Me.MetroLabel28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel28.Location = New System.Drawing.Point(228, 109)
+        Me.MetroLabel28.Name = "MetroLabel28"
+        Me.MetroLabel28.Size = New System.Drawing.Size(54, 19)
+        Me.MetroLabel28.TabIndex = 12
+        Me.MetroLabel28.Text = "Agustus"
+        Me.MetroLabel28.UseCustomBackColor = True
+        Me.MetroLabel28.UseCustomForeColor = True
+        '
+        'MetroLabel29
+        '
+        Me.MetroLabel29.AutoSize = True
+        Me.MetroLabel29.BackColor = System.Drawing.Color.White
+        Me.MetroLabel29.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel29.Location = New System.Drawing.Point(228, 80)
+        Me.MetroLabel29.Name = "MetroLabel29"
+        Me.MetroLabel29.Size = New System.Drawing.Size(27, 19)
+        Me.MetroLabel29.TabIndex = 13
+        Me.MetroLabel29.Text = "Juli"
+        Me.MetroLabel29.UseCustomBackColor = True
+        Me.MetroLabel29.UseCustomForeColor = True
+        '
+        'MetroLabel30
+        '
+        Me.MetroLabel30.AutoSize = True
+        Me.MetroLabel30.BackColor = System.Drawing.Color.White
+        Me.MetroLabel30.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel30.Location = New System.Drawing.Point(18, 225)
+        Me.MetroLabel30.Name = "MetroLabel30"
+        Me.MetroLabel30.Size = New System.Drawing.Size(31, 19)
+        Me.MetroLabel30.TabIndex = 14
+        Me.MetroLabel30.Text = "Juni"
+        Me.MetroLabel30.UseCustomBackColor = True
+        Me.MetroLabel30.UseCustomForeColor = True
+        '
+        'MetroLabel20
+        '
+        Me.MetroLabel20.AutoSize = True
+        Me.MetroLabel20.BackColor = System.Drawing.Color.White
+        Me.MetroLabel20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel20.Location = New System.Drawing.Point(18, 80)
+        Me.MetroLabel20.Name = "MetroLabel20"
+        Me.MetroLabel20.Size = New System.Drawing.Size(50, 19)
+        Me.MetroLabel20.TabIndex = 4
+        Me.MetroLabel20.Text = "Januari"
+        Me.MetroLabel20.UseCustomBackColor = True
+        Me.MetroLabel20.UseCustomForeColor = True
+        '
+        'MetroLabel21
+        '
+        Me.MetroLabel21.AutoSize = True
+        Me.MetroLabel21.BackColor = System.Drawing.Color.White
+        Me.MetroLabel21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel21.Location = New System.Drawing.Point(18, 109)
+        Me.MetroLabel21.Name = "MetroLabel21"
+        Me.MetroLabel21.Size = New System.Drawing.Size(58, 19)
+        Me.MetroLabel21.TabIndex = 5
+        Me.MetroLabel21.Text = "Februari"
+        Me.MetroLabel21.UseCustomBackColor = True
+        Me.MetroLabel21.UseCustomForeColor = True
+        '
+        'MetroLabel22
+        '
+        Me.MetroLabel22.AutoSize = True
+        Me.MetroLabel22.BackColor = System.Drawing.Color.White
+        Me.MetroLabel22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel22.Location = New System.Drawing.Point(18, 138)
+        Me.MetroLabel22.Name = "MetroLabel22"
+        Me.MetroLabel22.Size = New System.Drawing.Size(44, 19)
+        Me.MetroLabel22.TabIndex = 6
+        Me.MetroLabel22.Text = "Maret"
+        Me.MetroLabel22.UseCustomBackColor = True
+        Me.MetroLabel22.UseCustomForeColor = True
+        '
+        'MetroLabel23
+        '
+        Me.MetroLabel23.AutoSize = True
+        Me.MetroLabel23.BackColor = System.Drawing.Color.White
+        Me.MetroLabel23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        Me.MetroLabel23.Location = New System.Drawing.Point(18, 167)
+        Me.MetroLabel23.Name = "MetroLabel23"
+        Me.MetroLabel23.Size = New System.Drawing.Size(37, 19)
+        Me.MetroLabel23.TabIndex = 7
+        Me.MetroLabel23.Text = "April"
+        Me.MetroLabel23.UseCustomBackColor = True
+        Me.MetroLabel23.UseCustomForeColor = True
         '
         'MetroPanel5
         '
         Me.MetroPanel5.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.MetroPanel5.Controls.Add(Me.MetroLabel18)
         Me.MetroPanel5.Controls.Add(Me.MetroTileEditJadwal)
-        Me.MetroPanel5.Controls.Add(Me.MetroTileHapusJadwal)
-        Me.MetroPanel5.Controls.Add(Me.MetroTileTambahJadwal)
+        Me.MetroPanel5.Controls.Add(Me.MetroTileSimpanJadwal)
         Me.MetroPanel5.HorizontalScrollbarBarColor = True
         Me.MetroPanel5.HorizontalScrollbarHighlightOnWheel = False
         Me.MetroPanel5.HorizontalScrollbarSize = 10
-        Me.MetroPanel5.Location = New System.Drawing.Point(818, 47)
+        Me.MetroPanel5.Location = New System.Drawing.Point(572, 122)
         Me.MetroPanel5.Name = "MetroPanel5"
-        Me.MetroPanel5.Size = New System.Drawing.Size(216, 181)
+        Me.MetroPanel5.Size = New System.Drawing.Size(118, 160)
         Me.MetroPanel5.Style = MetroFramework.MetroColorStyle.Green
         Me.MetroPanel5.TabIndex = 14
         Me.MetroPanel5.Theme = MetroFramework.MetroThemeStyle.Light
@@ -504,63 +1298,35 @@ Partial Class MainForm
         Me.MetroPanel5.VerticalScrollbarHighlightOnWheel = False
         Me.MetroPanel5.VerticalScrollbarSize = 10
         '
-        'MetroLabel18
-        '
-        Me.MetroLabel18.AutoSize = True
-        Me.MetroLabel18.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.MetroLabel18.Location = New System.Drawing.Point(1, 1)
-        Me.MetroLabel18.Name = "MetroLabel18"
-        Me.MetroLabel18.Size = New System.Drawing.Size(80, 19)
-        Me.MetroLabel18.Style = MetroFramework.MetroColorStyle.Green
-        Me.MetroLabel18.TabIndex = 5
-        Me.MetroLabel18.Text = "Olah Jadwal"
-        Me.MetroLabel18.Theme = MetroFramework.MetroThemeStyle.Light
-        Me.MetroLabel18.UseStyleColors = True
-        '
         'MetroTileEditJadwal
         '
         Me.MetroTileEditJadwal.ActiveControl = Nothing
-        Me.MetroTileEditJadwal.Location = New System.Drawing.Point(0, 108)
+        Me.MetroTileEditJadwal.Location = New System.Drawing.Point(1, 3)
         Me.MetroTileEditJadwal.Name = "MetroTileEditJadwal"
-        Me.MetroTileEditJadwal.Size = New System.Drawing.Size(216, 67)
+        Me.MetroTileEditJadwal.Size = New System.Drawing.Size(116, 67)
         Me.MetroTileEditJadwal.Style = MetroFramework.MetroColorStyle.Orange
         Me.MetroTileEditJadwal.TabIndex = 4
-        Me.MetroTileEditJadwal.Text = "Edit Data"
+        Me.MetroTileEditJadwal.Text = "Edit"
         Me.MetroTileEditJadwal.TileImage = CType(resources.GetObject("MetroTileEditJadwal.TileImage"), System.Drawing.Image)
         Me.MetroTileEditJadwal.TileImageAlign = System.Drawing.ContentAlignment.TopRight
         Me.MetroTileEditJadwal.UseSelectable = True
         Me.MetroTileEditJadwal.UseTileImage = True
         '
-        'MetroTileHapusJadwal
+        'MetroTileSimpanJadwal
         '
-        Me.MetroTileHapusJadwal.ActiveControl = Nothing
-        Me.MetroTileHapusJadwal.Location = New System.Drawing.Point(107, 23)
-        Me.MetroTileHapusJadwal.Name = "MetroTileHapusJadwal"
-        Me.MetroTileHapusJadwal.Size = New System.Drawing.Size(109, 79)
-        Me.MetroTileHapusJadwal.Style = MetroFramework.MetroColorStyle.Red
-        Me.MetroTileHapusJadwal.TabIndex = 3
-        Me.MetroTileHapusJadwal.Text = "Hapus"
-        Me.MetroTileHapusJadwal.Theme = MetroFramework.MetroThemeStyle.Light
-        Me.MetroTileHapusJadwal.TileImage = CType(resources.GetObject("MetroTileHapusJadwal.TileImage"), System.Drawing.Image)
-        Me.MetroTileHapusJadwal.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.MetroTileHapusJadwal.UseSelectable = True
-        Me.MetroTileHapusJadwal.UseTileImage = True
-        '
-        'MetroTileTambahJadwal
-        '
-        Me.MetroTileTambahJadwal.ActiveControl = Nothing
-        Me.MetroTileTambahJadwal.Location = New System.Drawing.Point(0, 23)
-        Me.MetroTileTambahJadwal.Name = "MetroTileTambahJadwal"
-        Me.MetroTileTambahJadwal.Size = New System.Drawing.Size(101, 79)
-        Me.MetroTileTambahJadwal.Style = MetroFramework.MetroColorStyle.Green
-        Me.MetroTileTambahJadwal.TabIndex = 2
-        Me.MetroTileTambahJadwal.Text = "Tambah "
-        Me.MetroTileTambahJadwal.Theme = MetroFramework.MetroThemeStyle.Light
-        Me.MetroTileTambahJadwal.TileImage = CType(resources.GetObject("MetroTileTambahJadwal.TileImage"), System.Drawing.Image)
-        Me.MetroTileTambahJadwal.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.MetroTileTambahJadwal.UseSelectable = True
-        Me.MetroTileTambahJadwal.UseStyleColors = True
-        Me.MetroTileTambahJadwal.UseTileImage = True
+        Me.MetroTileSimpanJadwal.ActiveControl = Nothing
+        Me.MetroTileSimpanJadwal.Location = New System.Drawing.Point(1, 76)
+        Me.MetroTileSimpanJadwal.Name = "MetroTileSimpanJadwal"
+        Me.MetroTileSimpanJadwal.Size = New System.Drawing.Size(115, 79)
+        Me.MetroTileSimpanJadwal.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroTileSimpanJadwal.TabIndex = 2
+        Me.MetroTileSimpanJadwal.Text = "Simpan"
+        Me.MetroTileSimpanJadwal.Theme = MetroFramework.MetroThemeStyle.Light
+        Me.MetroTileSimpanJadwal.TileImage = CType(resources.GetObject("MetroTileSimpanJadwal.TileImage"), System.Drawing.Image)
+        Me.MetroTileSimpanJadwal.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.MetroTileSimpanJadwal.UseSelectable = True
+        Me.MetroTileSimpanJadwal.UseStyleColors = True
+        Me.MetroTileSimpanJadwal.UseTileImage = True
         '
         'MetroLabel6
         '
@@ -783,9 +1549,9 @@ Partial Class MainForm
         '
         Me.MetroGrid2.AllowUserToOrderColumns = True
         Me.MetroGrid2.AllowUserToResizeRows = False
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.Padding = New System.Windows.Forms.Padding(5)
-        Me.MetroGrid2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.Padding = New System.Windows.Forms.Padding(5)
+        Me.MetroGrid2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle6
         Me.MetroGrid2.AutoGenerateColumns = False
         Me.MetroGrid2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader
         Me.MetroGrid2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
@@ -793,25 +1559,25 @@ Partial Class MainForm
         Me.MetroGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.MetroGrid2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.MetroGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
         Me.MetroGrid2.ColumnHeadersHeight = 35
         Me.MetroGrid2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn19, Me.DataGridViewTextBoxColumn16, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn18})
         Me.MetroGrid2.DataSource = Me.InboxBindingSource
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MetroGrid2.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MetroGrid2.DefaultCellStyle = DataGridViewCellStyle8
         Me.MetroGrid2.EnableHeadersVisualStyles = False
         Me.MetroGrid2.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.MetroGrid2.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -819,24 +1585,62 @@ Partial Class MainForm
         Me.MetroGrid2.MultiSelect = False
         Me.MetroGrid2.Name = "MetroGrid2"
         Me.MetroGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid2.RowHeadersDefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid2.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
         Me.MetroGrid2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.Padding = New System.Windows.Forms.Padding(5)
-        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid2.RowsDefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.Padding = New System.Windows.Forms.Padding(5)
+        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid2.RowsDefaultCellStyle = DataGridViewCellStyle10
         Me.MetroGrid2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.MetroGrid2.Size = New System.Drawing.Size(800, 562)
         Me.MetroGrid2.Style = MetroFramework.MetroColorStyle.Green
         Me.MetroGrid2.TabIndex = 16
         Me.MetroGrid2.UseStyleColors = True
+        '
+        'DataGridViewTextBoxColumn19
+        '
+        Me.DataGridViewTextBoxColumn19.DataPropertyName = "ID"
+        Me.DataGridViewTextBoxColumn19.HeaderText = "ID"
+        Me.DataGridViewTextBoxColumn19.Name = "DataGridViewTextBoxColumn19"
+        Me.DataGridViewTextBoxColumn19.Width = 48
+        '
+        'DataGridViewTextBoxColumn16
+        '
+        Me.DataGridViewTextBoxColumn16.DataPropertyName = "ReceivingDateTime"
+        Me.DataGridViewTextBoxColumn16.HeaderText = "Waktu Diterima"
+        Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
+        Me.DataGridViewTextBoxColumn16.Width = 142
+        '
+        'DataGridViewTextBoxColumn17
+        '
+        Me.DataGridViewTextBoxColumn17.DataPropertyName = "SenderNumber"
+        Me.DataGridViewTextBoxColumn17.HeaderText = "Nomor Pengirim"
+        Me.DataGridViewTextBoxColumn17.Name = "DataGridViewTextBoxColumn17"
+        Me.DataGridViewTextBoxColumn17.Width = 149
+        '
+        'DataGridViewTextBoxColumn18
+        '
+        Me.DataGridViewTextBoxColumn18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.DataGridViewTextBoxColumn18.DataPropertyName = "TextDecoded"
+        Me.DataGridViewTextBoxColumn18.HeaderText = "Pesan"
+        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
+        '
+        'InboxBindingSource
+        '
+        Me.InboxBindingSource.DataMember = "inbox"
+        Me.InboxBindingSource.DataSource = Me.GammuDataSet1
+        '
+        'GammuDataSet1
+        '
+        Me.GammuDataSet1.DataSetName = "gammuDataSet"
+        Me.GammuDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MetroLabel8
         '
@@ -870,10 +1674,10 @@ Partial Class MainForm
         '
         Me.MetroGrid4.AllowUserToOrderColumns = True
         Me.MetroGrid4.AllowUserToResizeRows = False
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle16.Padding = New System.Windows.Forms.Padding(5)
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle11.Padding = New System.Windows.Forms.Padding(5)
+        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
         Me.MetroGrid4.AutoGenerateColumns = False
         Me.MetroGrid4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.MetroGrid4.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
@@ -881,25 +1685,25 @@ Partial Class MainForm
         Me.MetroGrid4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.MetroGrid4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.MetroGrid4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle12
         Me.MetroGrid4.ColumnHeadersHeight = 35
         Me.MetroGrid4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn14, Me.DataGridViewTextBoxColumn11, Me.DataGridViewTextBoxColumn12, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn13})
         Me.MetroGrid4.DataSource = Me.SentitemsBindingSource
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid4.DefaultCellStyle = DataGridViewCellStyle19
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
+        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid4.DefaultCellStyle = DataGridViewCellStyle14
         Me.MetroGrid4.EnableHeadersVisualStyles = False
         Me.MetroGrid4.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.MetroGrid4.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -907,24 +1711,67 @@ Partial Class MainForm
         Me.MetroGrid4.MultiSelect = False
         Me.MetroGrid4.Name = "MetroGrid4"
         Me.MetroGrid4.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
-        DataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid4.RowHeadersDefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(89, Byte), Integer))
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(104, Byte), Integer))
+        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid4.RowHeadersDefaultCellStyle = DataGridViewCellStyle15
         Me.MetroGrid4.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle21.Padding = New System.Windows.Forms.Padding(5)
-        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.MetroGrid4.RowsDefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle16.Padding = New System.Windows.Forms.Padding(5)
+        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MetroGrid4.RowsDefaultCellStyle = DataGridViewCellStyle16
         Me.MetroGrid4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.MetroGrid4.Size = New System.Drawing.Size(800, 562)
         Me.MetroGrid4.Style = MetroFramework.MetroColorStyle.Green
         Me.MetroGrid4.TabIndex = 17
         Me.MetroGrid4.UseStyleColors = True
+        '
+        'DataGridViewTextBoxColumn14
+        '
+        Me.DataGridViewTextBoxColumn14.DataPropertyName = "ID"
+        Me.DataGridViewTextBoxColumn14.HeaderText = "ID"
+        Me.DataGridViewTextBoxColumn14.Name = "DataGridViewTextBoxColumn14"
+        Me.DataGridViewTextBoxColumn14.Width = 48
+        '
+        'DataGridViewTextBoxColumn11
+        '
+        Me.DataGridViewTextBoxColumn11.DataPropertyName = "SendingDateTime"
+        Me.DataGridViewTextBoxColumn11.HeaderText = "Waktu Terkirim"
+        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
+        Me.DataGridViewTextBoxColumn11.Width = 139
+        '
+        'DataGridViewTextBoxColumn12
+        '
+        Me.DataGridViewTextBoxColumn12.DataPropertyName = "DestinationNumber"
+        Me.DataGridViewTextBoxColumn12.HeaderText = "Nomor Tujuan"
+        Me.DataGridViewTextBoxColumn12.Name = "DataGridViewTextBoxColumn12"
+        Me.DataGridViewTextBoxColumn12.Width = 133
+        '
+        'DataGridViewTextBoxColumn15
+        '
+        Me.DataGridViewTextBoxColumn15.DataPropertyName = "Status"
+        Me.DataGridViewTextBoxColumn15.HeaderText = "Status"
+        Me.DataGridViewTextBoxColumn15.Name = "DataGridViewTextBoxColumn15"
+        Me.DataGridViewTextBoxColumn15.Width = 76
+        '
+        'DataGridViewTextBoxColumn13
+        '
+        Me.DataGridViewTextBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.DataGridViewTextBoxColumn13.DataPropertyName = "TextDecoded"
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle13
+        Me.DataGridViewTextBoxColumn13.HeaderText = "Pesan"
+        Me.DataGridViewTextBoxColumn13.Name = "DataGridViewTextBoxColumn13"
+        '
+        'SentitemsBindingSource
+        '
+        Me.SentitemsBindingSource.DataMember = "sentitems"
+        Me.SentitemsBindingSource.DataSource = Me.GammuDataSet1
         '
         'MetroLabel9
         '
@@ -953,6 +1800,71 @@ Partial Class MainForm
         Me.MetroTabPageSettings.VerticalScrollbarBarColor = True
         Me.MetroTabPageSettings.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPageSettings.VerticalScrollbarSize = 10
+        '
+        'MetroPanel3
+        '
+        Me.MetroPanel3.Controls.Add(Me.MetroButtonStop)
+        Me.MetroPanel3.Controls.Add(Me.MetroLabelStatusGammu)
+        Me.MetroPanel3.Controls.Add(Me.MetroButtonRun)
+        Me.MetroPanel3.Controls.Add(Me.MetroLabel3)
+        Me.MetroPanel3.HorizontalScrollbarBarColor = True
+        Me.MetroPanel3.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel3.HorizontalScrollbarSize = 10
+        Me.MetroPanel3.Location = New System.Drawing.Point(3, 56)
+        Me.MetroPanel3.Name = "MetroPanel3"
+        Me.MetroPanel3.Size = New System.Drawing.Size(296, 108)
+        Me.MetroPanel3.TabIndex = 16
+        Me.MetroPanel3.VerticalScrollbarBarColor = True
+        Me.MetroPanel3.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel3.VerticalScrollbarSize = 10
+        '
+        'MetroButtonStop
+        '
+        Me.MetroButtonStop.BackColor = System.Drawing.Color.Transparent
+        Me.MetroButtonStop.FontSize = MetroFramework.MetroButtonSize.Medium
+        Me.MetroButtonStop.FontWeight = MetroFramework.MetroButtonWeight.Regular
+        Me.MetroButtonStop.Location = New System.Drawing.Point(160, 62)
+        Me.MetroButtonStop.Name = "MetroButtonStop"
+        Me.MetroButtonStop.Size = New System.Drawing.Size(121, 28)
+        Me.MetroButtonStop.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroButtonStop.TabIndex = 16
+        Me.MetroButtonStop.Text = "Stop"
+        Me.MetroButtonStop.UseCustomBackColor = True
+        Me.MetroButtonStop.UseSelectable = True
+        Me.MetroButtonStop.UseStyleColors = True
+        '
+        'MetroLabelStatusGammu
+        '
+        Me.MetroLabelStatusGammu.AutoSize = True
+        Me.MetroLabelStatusGammu.Location = New System.Drawing.Point(175, 19)
+        Me.MetroLabelStatusGammu.Name = "MetroLabelStatusGammu"
+        Me.MetroLabelStatusGammu.Size = New System.Drawing.Size(28, 19)
+        Me.MetroLabelStatusGammu.TabIndex = 14
+        Me.MetroLabelStatusGammu.Text = "Off"
+        '
+        'MetroButtonRun
+        '
+        Me.MetroButtonRun.BackColor = System.Drawing.Color.Transparent
+        Me.MetroButtonRun.FontSize = MetroFramework.MetroButtonSize.Medium
+        Me.MetroButtonRun.FontWeight = MetroFramework.MetroButtonWeight.Regular
+        Me.MetroButtonRun.Location = New System.Drawing.Point(22, 62)
+        Me.MetroButtonRun.Name = "MetroButtonRun"
+        Me.MetroButtonRun.Size = New System.Drawing.Size(121, 28)
+        Me.MetroButtonRun.Style = MetroFramework.MetroColorStyle.Green
+        Me.MetroButtonRun.TabIndex = 15
+        Me.MetroButtonRun.Text = "Run"
+        Me.MetroButtonRun.UseCustomBackColor = True
+        Me.MetroButtonRun.UseSelectable = True
+        Me.MetroButtonRun.UseStyleColors = True
+        '
+        'MetroLabel3
+        '
+        Me.MetroLabel3.AutoSize = True
+        Me.MetroLabel3.Location = New System.Drawing.Point(22, 19)
+        Me.MetroLabel3.Name = "MetroLabel3"
+        Me.MetroLabel3.Size = New System.Drawing.Size(147, 19)
+        Me.MetroLabel3.TabIndex = 13
+        Me.MetroLabel3.Text = "Status Gammu Service :"
         '
         'MetroLabel10
         '
@@ -1064,6 +1976,21 @@ Partial Class MainForm
         Me.MetroPanel1.VerticalScrollbarHighlightOnWheel = False
         Me.MetroPanel1.VerticalScrollbarSize = 10
         '
+        'MetroButtonLogout
+        '
+        Me.MetroButtonLogout.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MetroButtonLogout.FontSize = MetroFramework.MetroButtonSize.Tall
+        Me.MetroButtonLogout.FontWeight = MetroFramework.MetroButtonWeight.Regular
+        Me.MetroButtonLogout.Location = New System.Drawing.Point(0, 463)
+        Me.MetroButtonLogout.Name = "MetroButtonLogout"
+        Me.MetroButtonLogout.Size = New System.Drawing.Size(150, 50)
+        Me.MetroButtonLogout.Style = MetroFramework.MetroColorStyle.White
+        Me.MetroButtonLogout.TabIndex = 12
+        Me.MetroButtonLogout.Text = "LOGOUT"
+        Me.MetroButtonLogout.UseCustomBackColor = True
+        Me.MetroButtonLogout.UseSelectable = True
+        Me.MetroButtonLogout.UseStyleColors = True
+        '
         'MetroTile1
         '
         Me.MetroTile1.ActiveControl = Nothing
@@ -1158,152 +2085,6 @@ Partial Class MainForm
         'Timer1
         '
         '
-        'MetroLabel3
-        '
-        Me.MetroLabel3.AutoSize = True
-        Me.MetroLabel3.Location = New System.Drawing.Point(22, 19)
-        Me.MetroLabel3.Name = "MetroLabel3"
-        Me.MetroLabel3.Size = New System.Drawing.Size(147, 19)
-        Me.MetroLabel3.TabIndex = 13
-        Me.MetroLabel3.Text = "Status Gammu Service :"
-        '
-        'MetroLabelStatusGammu
-        '
-        Me.MetroLabelStatusGammu.AutoSize = True
-        Me.MetroLabelStatusGammu.Location = New System.Drawing.Point(175, 19)
-        Me.MetroLabelStatusGammu.Name = "MetroLabelStatusGammu"
-        Me.MetroLabelStatusGammu.Size = New System.Drawing.Size(43, 19)
-        Me.MetroLabelStatusGammu.TabIndex = 14
-        Me.MetroLabelStatusGammu.Text = "Status"
-        '
-        'MetroButtonRun
-        '
-        Me.MetroButtonRun.BackColor = System.Drawing.Color.Transparent
-        Me.MetroButtonRun.FontSize = MetroFramework.MetroButtonSize.Medium
-        Me.MetroButtonRun.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.MetroButtonRun.Location = New System.Drawing.Point(22, 62)
-        Me.MetroButtonRun.Name = "MetroButtonRun"
-        Me.MetroButtonRun.Size = New System.Drawing.Size(121, 28)
-        Me.MetroButtonRun.Style = MetroFramework.MetroColorStyle.Green
-        Me.MetroButtonRun.TabIndex = 15
-        Me.MetroButtonRun.Text = "Run"
-        Me.MetroButtonRun.UseCustomBackColor = True
-        Me.MetroButtonRun.UseSelectable = True
-        Me.MetroButtonRun.UseStyleColors = True
-        '
-        'MetroPanel3
-        '
-        Me.MetroPanel3.Controls.Add(Me.MetroButtonStop)
-        Me.MetroPanel3.Controls.Add(Me.MetroLabelStatusGammu)
-        Me.MetroPanel3.Controls.Add(Me.MetroButtonRun)
-        Me.MetroPanel3.Controls.Add(Me.MetroLabel3)
-        Me.MetroPanel3.HorizontalScrollbarBarColor = True
-        Me.MetroPanel3.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel3.HorizontalScrollbarSize = 10
-        Me.MetroPanel3.Location = New System.Drawing.Point(3, 56)
-        Me.MetroPanel3.Name = "MetroPanel3"
-        Me.MetroPanel3.Size = New System.Drawing.Size(296, 108)
-        Me.MetroPanel3.TabIndex = 16
-        Me.MetroPanel3.VerticalScrollbarBarColor = True
-        Me.MetroPanel3.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel3.VerticalScrollbarSize = 10
-        '
-        'MetroButtonStop
-        '
-        Me.MetroButtonStop.BackColor = System.Drawing.Color.Transparent
-        Me.MetroButtonStop.FontSize = MetroFramework.MetroButtonSize.Medium
-        Me.MetroButtonStop.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.MetroButtonStop.Location = New System.Drawing.Point(160, 62)
-        Me.MetroButtonStop.Name = "MetroButtonStop"
-        Me.MetroButtonStop.Size = New System.Drawing.Size(121, 28)
-        Me.MetroButtonStop.Style = MetroFramework.MetroColorStyle.Green
-        Me.MetroButtonStop.TabIndex = 16
-        Me.MetroButtonStop.Text = "Stop"
-        Me.MetroButtonStop.UseCustomBackColor = True
-        Me.MetroButtonStop.UseSelectable = True
-        Me.MetroButtonStop.UseStyleColors = True
-        '
-        'DataGridViewTextBoxColumn19
-        '
-        Me.DataGridViewTextBoxColumn19.DataPropertyName = "ID"
-        Me.DataGridViewTextBoxColumn19.HeaderText = "ID"
-        Me.DataGridViewTextBoxColumn19.Name = "DataGridViewTextBoxColumn19"
-        Me.DataGridViewTextBoxColumn19.Width = 48
-        '
-        'DataGridViewTextBoxColumn16
-        '
-        Me.DataGridViewTextBoxColumn16.DataPropertyName = "ReceivingDateTime"
-        Me.DataGridViewTextBoxColumn16.HeaderText = "Waktu Diterima"
-        Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
-        Me.DataGridViewTextBoxColumn16.Width = 142
-        '
-        'DataGridViewTextBoxColumn17
-        '
-        Me.DataGridViewTextBoxColumn17.DataPropertyName = "SenderNumber"
-        Me.DataGridViewTextBoxColumn17.HeaderText = "Nomor Pengirim"
-        Me.DataGridViewTextBoxColumn17.Name = "DataGridViewTextBoxColumn17"
-        Me.DataGridViewTextBoxColumn17.Width = 149
-        '
-        'DataGridViewTextBoxColumn18
-        '
-        Me.DataGridViewTextBoxColumn18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.DataGridViewTextBoxColumn18.DataPropertyName = "TextDecoded"
-        Me.DataGridViewTextBoxColumn18.HeaderText = "Pesan"
-        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
-        '
-        'InboxBindingSource
-        '
-        Me.InboxBindingSource.DataMember = "inbox"
-        Me.InboxBindingSource.DataSource = Me.GammuDataSet1
-        '
-        'GammuDataSet1
-        '
-        Me.GammuDataSet1.DataSetName = "gammuDataSet"
-        Me.GammuDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'DataGridViewTextBoxColumn14
-        '
-        Me.DataGridViewTextBoxColumn14.DataPropertyName = "ID"
-        Me.DataGridViewTextBoxColumn14.HeaderText = "ID"
-        Me.DataGridViewTextBoxColumn14.Name = "DataGridViewTextBoxColumn14"
-        Me.DataGridViewTextBoxColumn14.Width = 48
-        '
-        'DataGridViewTextBoxColumn11
-        '
-        Me.DataGridViewTextBoxColumn11.DataPropertyName = "SendingDateTime"
-        Me.DataGridViewTextBoxColumn11.HeaderText = "Waktu Terkirim"
-        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
-        Me.DataGridViewTextBoxColumn11.Width = 139
-        '
-        'DataGridViewTextBoxColumn12
-        '
-        Me.DataGridViewTextBoxColumn12.DataPropertyName = "DestinationNumber"
-        Me.DataGridViewTextBoxColumn12.HeaderText = "Nomor Tujuan"
-        Me.DataGridViewTextBoxColumn12.Name = "DataGridViewTextBoxColumn12"
-        Me.DataGridViewTextBoxColumn12.Width = 133
-        '
-        'DataGridViewTextBoxColumn15
-        '
-        Me.DataGridViewTextBoxColumn15.DataPropertyName = "Status"
-        Me.DataGridViewTextBoxColumn15.HeaderText = "Status"
-        Me.DataGridViewTextBoxColumn15.Name = "DataGridViewTextBoxColumn15"
-        Me.DataGridViewTextBoxColumn15.Width = 76
-        '
-        'DataGridViewTextBoxColumn13
-        '
-        Me.DataGridViewTextBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.DataGridViewTextBoxColumn13.DataPropertyName = "TextDecoded"
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle18
-        Me.DataGridViewTextBoxColumn13.HeaderText = "Pesan"
-        Me.DataGridViewTextBoxColumn13.Name = "DataGridViewTextBoxColumn13"
-        '
-        'SentitemsBindingSource
-        '
-        Me.SentitemsBindingSource.DataMember = "sentitems"
-        Me.SentitemsBindingSource.DataSource = Me.GammuDataSet1
-        '
         'SentitemsTableAdapter1
         '
         Me.SentitemsTableAdapter1.ClearBeforeFill = True
@@ -1311,21 +2092,6 @@ Partial Class MainForm
         'InboxTableAdapter1
         '
         Me.InboxTableAdapter1.ClearBeforeFill = True
-        '
-        'MetroButtonLogout
-        '
-        Me.MetroButtonLogout.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MetroButtonLogout.FontSize = MetroFramework.MetroButtonSize.Tall
-        Me.MetroButtonLogout.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.MetroButtonLogout.Location = New System.Drawing.Point(0, 463)
-        Me.MetroButtonLogout.Name = "MetroButtonLogout"
-        Me.MetroButtonLogout.Size = New System.Drawing.Size(150, 50)
-        Me.MetroButtonLogout.Style = MetroFramework.MetroColorStyle.White
-        Me.MetroButtonLogout.TabIndex = 12
-        Me.MetroButtonLogout.Text = "LOGOUT"
-        Me.MetroButtonLogout.UseCustomBackColor = True
-        Me.MetroButtonLogout.UseSelectable = True
-        Me.MetroButtonLogout.UseStyleColors = True
         '
         'MainForm
         '
@@ -1338,6 +2104,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.MetroLabel2)
         Me.Controls.Add(Me.MetroTabControl)
         Me.Controls.Add(Me.MetroPanel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "MainForm"
         Me.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow
@@ -1353,9 +2120,16 @@ Partial Class MainForm
         CType(Me.MetroGrid1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MetroTabPageJadwal.ResumeLayout(False)
         Me.MetroTabPageJadwal.PerformLayout()
-        CType(Me.MetroGrid3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MetroPanel6.ResumeLayout(False)
+        Me.MetroPanel10.ResumeLayout(False)
+        Me.MetroPanel10.PerformLayout()
+        Me.MetroPanel9.ResumeLayout(False)
+        Me.MetroPanel9.PerformLayout()
+        Me.MetroPanel8.ResumeLayout(False)
+        Me.MetroPanel8.PerformLayout()
+        Me.MetroPanel7.ResumeLayout(False)
+        Me.MetroPanel7.PerformLayout()
         Me.MetroPanel5.ResumeLayout(False)
-        Me.MetroPanel5.PerformLayout()
         Me.MetroTabPageKirimPesan.ResumeLayout(False)
         Me.MetroTabPageKirimPesan.PerformLayout()
         Me.MetroPanel4.ResumeLayout(False)
@@ -1363,19 +2137,19 @@ Partial Class MainForm
         Me.MetroTabPageKotakMasuk.ResumeLayout(False)
         Me.MetroTabPageKotakMasuk.PerformLayout()
         CType(Me.MetroGrid2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.InboxBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GammuDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MetroTabPagePesanKeluar.ResumeLayout(False)
         Me.MetroTabPagePesanKeluar.PerformLayout()
         CType(Me.MetroGrid4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SentitemsBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MetroTabPageSettings.ResumeLayout(False)
         Me.MetroTabPageSettings.PerformLayout()
+        Me.MetroPanel3.ResumeLayout(False)
+        Me.MetroPanel3.PerformLayout()
         Me.MetroPanel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.MetroPanel3.ResumeLayout(False)
-        Me.MetroPanel3.PerformLayout()
-        CType(Me.InboxBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GammuDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SentitemsBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1427,11 +2201,8 @@ Partial Class MainForm
     Friend WithEvents MetroLabel14 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroLabelPanjangPesan As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroPanel5 As MetroFramework.Controls.MetroPanel
-    Friend WithEvents MetroLabel18 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroTileEditJadwal As MetroFramework.Controls.MetroTile
-    Friend WithEvents MetroTileHapusJadwal As MetroFramework.Controls.MetroTile
-    Friend WithEvents MetroTileTambahJadwal As MetroFramework.Controls.MetroTile
-    Friend WithEvents MetroGrid3 As MetroFramework.Controls.MetroGrid
+    Friend WithEvents MetroTileSimpanJadwal As MetroFramework.Controls.MetroTile
     Friend WithEvents IdpasienDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents FnamaDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents LnamaDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
@@ -1491,4 +2262,44 @@ Partial Class MainForm
     Friend WithEvents MetroButtonRun As MetroFramework.Controls.MetroButton
     Friend WithEvents MetroLabel3 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroButtonLogout As MetroFramework.Controls.MetroButton
+    Friend WithEvents MetroPanel6 As MetroFramework.Controls.MetroPanel
+    Friend WithEvents MetroPanel8 As MetroFramework.Controls.MetroPanel
+    Friend WithEvents MetroLabel37 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel36 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel35 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroPanel7 As MetroFramework.Controls.MetroPanel
+    Friend WithEvents MetroLabel34 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroComboBoxTahun As MetroFramework.Controls.MetroComboBox
+    Friend WithEvents MetroLabel33 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel32 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroTextBox12 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox11 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox10 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox9 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox8 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox7 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox6 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox5 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox4 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox3 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox2 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroTextBox1 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents MetroLabel31 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel24 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel25 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel26 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel27 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel28 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel29 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel30 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel20 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel21 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel22 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel23 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel16 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel38 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel18 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroPanel9 As MetroFramework.Controls.MetroPanel
+    Friend WithEvents MetroPanel10 As MetroFramework.Controls.MetroPanel
+    Friend WithEvents MetroLabel39 As MetroFramework.Controls.MetroLabel
 End Class
