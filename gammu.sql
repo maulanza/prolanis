@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 14 Jun 2016 pada 12.19
+-- Generation Time: 24 Agu 2016 pada 09.50
 -- Versi Server: 10.1.13-MariaDB
 -- PHP Version: 7.0.5
 
@@ -181,7 +181,7 @@ CREATE TABLE `pbk_groups` (
 
 INSERT INTO `pbk_groups` (`Name`, `ID`) VALUES
 ('Tidak Ada', 1),
-('Hepatitis', 2),
+('Hipertensi', 2),
 ('Diabetes', 3),
 ('Semua Kategori', 4);
 
@@ -298,9 +298,28 @@ INSERT INTO `tb_admin` (`id_admin`, `username`, `password`) VALUES
 
 CREATE TABLE `tb_jadwal` (
   `id_jadwal` int(11) NOT NULL,
-  `jadwal` text NOT NULL,
-  `idpasien` int(11) NOT NULL
+  `bulan` varchar(10) NOT NULL,
+  `tanggal` int(2) NOT NULL,
+  `tahun` int(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `tb_jadwal`
+--
+
+INSERT INTO `tb_jadwal` (`id_jadwal`, `bulan`, `tanggal`, `tahun`) VALUES
+(1, 'Januari', 1, 2020),
+(2, 'Februari', 9, 2020),
+(3, 'Maret', 10, 2020),
+(4, 'April', 11, 2020),
+(5, 'Mei', 12, 2020),
+(6, 'Juni', 14, 2020),
+(7, 'Juli', 15, 2020),
+(8, 'Agustus', 18, 2020),
+(9, 'September', 20, 2020),
+(10, 'Oktober', 2, 2020),
+(11, 'November', 27, 2020),
+(12, 'Desember', 20, 2020);
 
 -- --------------------------------------------------------
 
@@ -441,7 +460,7 @@ ALTER TABLE `tb_admin`
 -- AUTO_INCREMENT for table `tb_jadwal`
 --
 ALTER TABLE `tb_jadwal`
-  MODIFY `id_jadwal` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_jadwal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `tb_pasien`
 --
