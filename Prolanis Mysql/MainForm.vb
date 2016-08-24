@@ -567,7 +567,7 @@ Public Class MainForm
 
                 command.ExecuteNonQuery()
 
-            ElseIf (IDKategori = 2) Then 'Hepatitis'
+            ElseIf (IDKategori = 2) Then 'Hipertensi'
                 Dim noTujuan As New List(Of String)
                 Dim nomorTujuan As String
 
