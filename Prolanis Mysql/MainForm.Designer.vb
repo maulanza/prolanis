@@ -154,6 +154,12 @@ Partial Class MainForm
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SentitemsTableAdapter1 = New Prolanis_Mysql.gammuDataSetTableAdapters.sentitemsTableAdapter()
         Me.InboxTableAdapter1 = New Prolanis_Mysql.gammuDataSetTableAdapters.inboxTableAdapter()
+        Me.MetroLabel19 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabelJumlahPasien = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel40 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabel41 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabelJumlahDiabetes = New MetroFramework.Controls.MetroLabel()
+        Me.MetroLabelJumlahHipertensi = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabControl.SuspendLayout()
         Me.MetroTabPageDashboard.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -196,7 +202,7 @@ Partial Class MainForm
         Me.MetroTabControl.FontWeight = MetroFramework.MetroTabControlWeight.Regular
         Me.MetroTabControl.Location = New System.Drawing.Point(172, 27)
         Me.MetroTabControl.Name = "MetroTabControl"
-        Me.MetroTabControl.SelectedIndex = 6
+        Me.MetroTabControl.SelectedIndex = 1
         Me.MetroTabControl.Size = New System.Drawing.Size(1171, 651)
         Me.MetroTabControl.Style = MetroFramework.MetroColorStyle.Green
         Me.MetroTabControl.TabIndex = 0
@@ -267,6 +273,12 @@ Partial Class MainForm
         '
         'MetroTabPagePasien
         '
+        Me.MetroTabPagePasien.Controls.Add(Me.MetroLabelJumlahHipertensi)
+        Me.MetroTabPagePasien.Controls.Add(Me.MetroLabelJumlahDiabetes)
+        Me.MetroTabPagePasien.Controls.Add(Me.MetroLabel41)
+        Me.MetroTabPagePasien.Controls.Add(Me.MetroLabel40)
+        Me.MetroTabPagePasien.Controls.Add(Me.MetroLabelJumlahPasien)
+        Me.MetroTabPagePasien.Controls.Add(Me.MetroLabel19)
         Me.MetroTabPagePasien.Controls.Add(Me.MetroTileKirimPesan)
         Me.MetroTabPagePasien.Controls.Add(Me.MetroLabel4)
         Me.MetroTabPagePasien.Controls.Add(Me.MetroPanel2)
@@ -2093,6 +2105,60 @@ Partial Class MainForm
         '
         Me.InboxTableAdapter1.ClearBeforeFill = True
         '
+        'MetroLabel19
+        '
+        Me.MetroLabel19.AutoSize = True
+        Me.MetroLabel19.Location = New System.Drawing.Point(948, 319)
+        Me.MetroLabel19.Name = "MetroLabel19"
+        Me.MetroLabel19.Size = New System.Drawing.Size(93, 19)
+        Me.MetroLabel19.TabIndex = 13
+        Me.MetroLabel19.Text = "Jumlah Pasien:"
+        '
+        'MetroLabelJumlahPasien
+        '
+        Me.MetroLabelJumlahPasien.AutoSize = True
+        Me.MetroLabelJumlahPasien.Location = New System.Drawing.Point(1040, 319)
+        Me.MetroLabelJumlahPasien.Name = "MetroLabelJumlahPasien"
+        Me.MetroLabelJumlahPasien.Size = New System.Drawing.Size(16, 19)
+        Me.MetroLabelJumlahPasien.TabIndex = 14
+        Me.MetroLabelJumlahPasien.Text = "0"
+        '
+        'MetroLabel40
+        '
+        Me.MetroLabel40.AutoSize = True
+        Me.MetroLabel40.Location = New System.Drawing.Point(948, 349)
+        Me.MetroLabel40.Name = "MetroLabel40"
+        Me.MetroLabel40.Size = New System.Drawing.Size(62, 19)
+        Me.MetroLabel40.TabIndex = 15
+        Me.MetroLabel40.Text = "Diabetes:"
+        '
+        'MetroLabel41
+        '
+        Me.MetroLabel41.AutoSize = True
+        Me.MetroLabel41.Location = New System.Drawing.Point(948, 368)
+        Me.MetroLabel41.Name = "MetroLabel41"
+        Me.MetroLabel41.Size = New System.Drawing.Size(71, 19)
+        Me.MetroLabel41.TabIndex = 16
+        Me.MetroLabel41.Text = "Hipertensi:"
+        '
+        'MetroLabelJumlahDiabetes
+        '
+        Me.MetroLabelJumlahDiabetes.AutoSize = True
+        Me.MetroLabelJumlahDiabetes.Location = New System.Drawing.Point(1040, 349)
+        Me.MetroLabelJumlahDiabetes.Name = "MetroLabelJumlahDiabetes"
+        Me.MetroLabelJumlahDiabetes.Size = New System.Drawing.Size(16, 19)
+        Me.MetroLabelJumlahDiabetes.TabIndex = 17
+        Me.MetroLabelJumlahDiabetes.Text = "0"
+        '
+        'MetroLabelJumlahHipertensi
+        '
+        Me.MetroLabelJumlahHipertensi.AutoSize = True
+        Me.MetroLabelJumlahHipertensi.Location = New System.Drawing.Point(1040, 368)
+        Me.MetroLabelJumlahHipertensi.Name = "MetroLabelJumlahHipertensi"
+        Me.MetroLabelJumlahHipertensi.Size = New System.Drawing.Size(16, 19)
+        Me.MetroLabelJumlahHipertensi.TabIndex = 18
+        Me.MetroLabelJumlahHipertensi.Text = "0"
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2302,4 +2368,10 @@ Partial Class MainForm
     Friend WithEvents MetroPanel9 As MetroFramework.Controls.MetroPanel
     Friend WithEvents MetroPanel10 As MetroFramework.Controls.MetroPanel
     Friend WithEvents MetroLabel39 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabelJumlahPasien As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel19 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabelJumlahHipertensi As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabelJumlahDiabetes As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel41 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents MetroLabel40 As MetroFramework.Controls.MetroLabel
 End Class

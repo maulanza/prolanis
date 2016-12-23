@@ -79,6 +79,9 @@ Public Class TambahPasienForm
             command.ExecuteNonQuery()
 
             obj.LoadPasien()
+            obj.LoadJumlahPasien()
+            obj.LoadJumlahDiabetes()
+            obj.LoadJumlahHipertensi()
             obj.MetroGrid1.Update()
             obj.MetroGrid1.Refresh()
 

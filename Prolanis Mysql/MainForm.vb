@@ -13,6 +13,9 @@ Public Class MainForm
     Public SQLSelectToTextBox As String = "SELECT * FROM tb_pasien WHERE id_pasien = ?"
     Public SQLDelete As String = "DELETE FROM tb_pasien WHERE id_pasien = ?"
     Public SQLSelectNoTlp1 As String = "SELECT no_tlp1 FROM tb_pasien WHERE id_pasien = ?"
+    Public SQLJumlahPasien As String = "SELECT COUNT(*) FROM tb_pasien"
+    Public SQLJumlahDiabetes As String = "SELECT COUNT(*) FROM tb_pasien WHERE kategori = ?"
+    Public SQLJumlahHipertensi As String = "SELECT COUNT(*) FROM tb_pasien WHERE kategori = ?"
 
     'SQl Jadwal'
     Public SQLSelectJadwal As String = "SELECT id_jadwal,tanggal,tahun from tb_jadwal"
@@ -90,6 +93,9 @@ Public Class MainForm
         'Menu Pasien'
         LoadPasien()
         SettingGridPasien()
+        LoadJumlahPasien()
+        LoadJumlahDiabetes()
+        LoadJumlahHipertensi()
 
         'Menu Jadwal'
         LoadJadwal()
@@ -125,6 +131,47 @@ Public Class MainForm
         da.Fill(dt)
 
         MetroGrid1.DataSource = dt
+        connection.Close()
+    End Sub
+
+    Public Sub LoadJumlahPasien()
+        If (connection.State <> ConnectionState.Open) Then
+            connection.Open()
+        End If
+
+        Dim command As MySqlCommand = connection.CreateCommand()
+        command.CommandText = SQLJumlahPasien
+
+        MetroLabelJumlahPasien.Text = command.ExecuteScalar()
+
+        connection.Close()
+    End Sub
+
+    Public Sub LoadJumlahDiabetes()
+        If (connection.State <> ConnectionState.Open) Then
+            connection.Open()
+        End If
+
+        Dim command As MySqlCommand = connection.CreateCommand()
+        command.CommandText = SQLJumlahDiabetes
+
+        command.Parameters.AddWithValue("kategori", "Diabetes")
+        MetroLabelJumlahDiabetes.Text = command.ExecuteScalar()
+
+        connection.Close()
+    End Sub
+
+    Public Sub LoadJumlahHipertensi()
+        If (connection.State <> ConnectionState.Open) Then
+            connection.Open()
+        End If
+
+        Dim command As MySqlCommand = connection.CreateCommand()
+        command.CommandText = SQLJumlahHipertensi
+
+        command.Parameters.AddWithValue("kategori", "Hipertensi")
+        MetroLabelJumlahHipertensi.Text = command.ExecuteScalar()
+
         connection.Close()
     End Sub
 
@@ -196,6 +243,9 @@ Public Class MainForm
 
             MessageBox.Show("Data berhasil dihapus!")
             LoadPasien()
+            LoadJumlahPasien()
+            LoadJumlahDiabetes()
+            LoadJumlahHipertensi()
             MetroGrid1.Update()
             MetroGrid1.Refresh()
         Catch ex As Exception
